@@ -2,7 +2,7 @@
 title: Cloud2
 email: getmore@cloud2.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  A cool white label website by Reg Tait built with Jekyll and using Dan Eden's Toast grid layout
+  Prototype for Cloud2 website
 baseurl: ""
 url: "https://example.com"
 phone: "07800 100100"
@@ -23,9 +23,6 @@ collections:
   event-item:
     output: true
     permalink: /launch/:path/
-  resource:
-    output: true
-    permalink: /resources/:path/
   partner:
     output: true
     permalink: /partners/:path/
