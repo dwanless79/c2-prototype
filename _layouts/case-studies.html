@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="hero">
+<div class="wrapper">
+<div class="grid">
+
+<div class="grid__col grid__col--2-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
+<h1 class="post-title">{{ page.title }}</h1>
+<h2 class="subtitle">Tityre, tu patulae recubans sub tegmine fagi dolor. Donec sed odio operae, eu vulputate felis rhoncus.</h2>
+
+</div><!-- end grid cols -->
+
+</div><!-- end grid -->
+</div><!-- end wrapper -->
+</div><!-- end hero -->
+
+<div class="wrapper">
+
+<nav class="">
+<ul class="categories inline">
+<li class="intruction">View by:</li>
+<li><a href="#" title="Health" class="js-cat-link health" data-category="health">Health</a><l/i>
+<li><a href="#" title="Corporate" class="js-cat-link corporate" data-category="corporate">Corporate</a></li>
+<li><a href="#" title="Intranets" class="js-cat-link intranets" data-category="intranets">Intranets</a></li>
+<li><a href="#" title="Analytics" class="js-cat-link analytics" data-category="analytics">Analytics</a></li>
+<li><a href="#" title="Cloud" class="js-cat-link cloud" data-category="cloud">Cloud</a></li>
+<li><a href="#" title="Show all" class="js-show-all">Show all</a></li>
+</ul>
+</nav>
+
+
+<article>
+
+<div class="post-content">
+{{ content }}
+</div>
+
+{% include listing-case.html %}
+
+</article>
+
+
+

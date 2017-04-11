@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+
+<article class="post">
+
+{% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}
+
+<nav class="cf">
+<ul class="page-subnav">
+<li><a href="#team" title="Meet the team">Meet the team</a></li>
+<li><a href="#workplace" title="Our workplace">Workplace</a></li>
+<li><a href="#directors" title="Meet the directors">Directors</a></li>
+<li><a href="#partners" title="Partners">Partners</a></li>
+<li><a href="#values" title="Values">Values</a></li>
+</ul>
+</nav>
+
+
+<header class="post-header">
+<h1 class="post-title">{{ page.title }}</h1>
+</header>
+
+<section class="profiles">
+
+{% assign items = site.profile | sort: 'date' %}
+<div class="grid">
+{% for profile in site.profile %}
+<div class="profile grid__col grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-1">
+<div class="profile-summary-wrap">
+<div class="profile-summary"><div class="profile-summary-text">{{ profile.summary }}</div></div>
+<img class="profile-pic" alt="{{ profile.title }}" src="{% if profile.pic %}{{ profile.pic }}{% else %}http://placehold.it/400x400?text={{ profile.title }}{% endif %}">
+</div>
+
+<h3>{{ profile.title }}</h3>
+<h4>{{ profile.job-title }}</h4>
+</div><!-- end grid col -->
+{% endfor %}
+
+</div><!-- end grid -->
+
+</section>
+
+
+<div class="post-content">
+
+{{ content }}
+
+</div>
+
+</article>
+
+{% assign items = site.partner | sort: 'date' %}
+<div class="grid partners">
+{% for partner in site.partner limit:4 %}
+<div class="partner grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="logo-wrap">
+<img class="partner-logo" src="/images/partners/{{ partner.logo }}" title="{{ partner.alt }}">
+</div>
+<div class="partner-description">{{ partner.content }}</div>
+</div>
+
+{% endfor %}
+</div><!--end grid -->
+
+
+
+<div class="accordion-wrap cf">
+<div class="accordion">
+<h2>Accordion title</h2>
+<div class="accordion-content">
+<p>Me non paenitet nullum festiviorem excogitasse ad hoc. Cras mattis iudicium purus sit amet fermentum. Integer legentibus erat a ante historiarum dapibus. Hi omnes lingua, institutis, legibus inter se differunt.</p>
+</div>
+<h2>Accordion title</h2>
+<div class="accordion-content">
+<p>Me non paenitet nullum festiviorem excogitasse ad hoc. Cras mattis iudicium purus sit amet fermentum. Integer legentibus erat a ante historiarum dapibus. Hi omnes lingua, institutis, legibus inter se differunt.</p>
+</div>
+
+</div><!-- end ac wrap -->
+
+</div>
+
+
+
+
+</div>
+
+

@@ -1,0 +1,43 @@
+html {
+	border-top: 2px solid #fff;
+}
+
+body {
+	padding: 0;
+}
+
+.wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.centred {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+.post, .page-listing {
+	padding-top: 2rem;
+}
+
+.page-listing {
+	min-height: 10rem;
+}
+
+.page-content + hero {
+	padding-top: 0;
+}
+
+
+
+
+.home-news {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background: $color-grey-bg;
+}

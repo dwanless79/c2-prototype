@@ -1,0 +1,26 @@
+<header class="site-header cf">
+
+	<nav class="site-nav cf">
+	<div class="wrapper">
+
+	<ul>{% for page in site.pages %}{% if page.title %}{% unless page.exclude_from_nav %}
+  		<li data-wenk="{{ page.description }}" class="{{ page.nav-class }}"><a title="{{ page.title }}" class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>{% endunless %}{% endif %}{% endfor %}
+		</ul>
+	</div>
+	</nav>
+	<div class="product-nav-wrap">
+	<div class="wrapper cf">
+	<nav class="product-nav">
+		<a class="logo" href="{{ site.baseurl }}/" title="{{ site.title }} home page">
+		<img class="nav-logo" src="/{{ site.theme-path }}/cloud2-logo.svg" title="{{ site.title }} logo" /></a>
+		<ul>
+	{% assign items = site.solution | sort: 'date' %}
+	{% for solution in site.solution limit:10 %}
+	<li><a title="{{ solution.title }} details" href="{{ solution.url }}">{{ solution.title }}</a></li>
+{% endfor %}
+		</ul>
+	</nav>
+</div>
+</div>
+
+</header>

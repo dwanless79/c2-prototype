@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Manual vs Repeatable vs Automated BI"
+date:   2017-04-07 00:00:00 +0000
+author: Mark Robinson
+categories:
+# bannerpic: banner-temp.png
+bannerpicsmall:
+excerpt: BI solutions can take many forms, and use may different technologies; however all BI solutions fall into one of 3 categories and will share many similarities with other BI solutions in the same category.
+
+---
+
+<figure>
+{% markdown %}![temp](/theme-assets/news/news-temp.jpg "Alt text here"){% endmarkdown %}
+<p class="caption">My caption</p>
+</figure>
+
+## Manual
+
+The mast majority of BI solutions fall into the Manual category. These are often developed outside of BI and IT teams, but may by developed by the BI and IT Teams as proof of concepts or one off ad-hoc developments. Some Repeatable and Automated BI solutions start their lives as Manual solutions.
+
+A Manual solution is one that from Source to Report needs to be recreated or refreshed via a manual process; so the data needs extracting, transforming and aggregating manually and the charts and tables need refreshing manually also. Some Manual solutions may have some Repeatable and Automated elements to them but the vast majority are manual.
+
+Manual solutions are perfectly fine so long as they are one off’s, but if they need to be refreshed and reused in the future, whether that be annually or daily, they should be Repeatable solutions as least.
+
+## Repeatable
+
+Repeatable BI solutions are perhaps the least common as most remain as Manual solutions or become Automated solutions via a BI project or initiative.
+
+Repeatable solutions will most often be created by the BI and IT teams or by experienced and capable individuals outside of these teams. Due to the small number of people who can develop these, and the fact that they are rarely the result of a funded BI project, Repeatable BI solutions are without doubt the rarest and most under utilised of the three types. I say under utilised as they often deliver 60% to 80% of the value at 10% to 20% of the cost (certainly in terms of people time and cost).
+
+A Repeatable solution is one that from Source to Report can be refreshed with reduced manual effort. An example of this would be where the amount of data required has been minimised but is still extracted manually. This data is then copied and pasted into a pre-structured template to which the remainder of the solution is connected.
+
+In many Manual solutions aggregations (including formulas and calculations) need to be checked and/or reset manually. This shouldn’t be the case with a Repeatable solution as all aggregations should be applied to all new data with no manual intervention. In a typical Repeatable or Automated BI solution such aggregations would be performed in the data model or cube which would sit between the reports and the data template.
+
+Repeatable solutions are perfectly acceptable for Year, Quarter and Month end reporting but are less so for Weekly reporting and should be viewed as unfit for Daily, Hourly and Real Time reporting.
+
+## Automated
+
+Automated BI solutions are usually the result of a full blown BI project or initiative that will almost without exception be delivered by the BI and IT teams, or developers brought in by those teams.
+
+Automated solutions are those that from Source to Report refresh automatically i.e. the data is extracted, transformed and aggregated by scheduled jobs. In some cases reports will be refreshed and distributed by scheduled jobs also. There may be some Repeatable and/or Manual elements to the Automated solution but these will be few and far between.
+
+For many good, valid and I’ll assume obvious reasons, users and BI/IT teams alike strive to put in place Automated BI solutions. However the fact is these solutions almost always require significant investment in terms of time, money and resource; and because of this, and the limited availability of all three, often result in users reverting to a Manual solution – which then sticks around resulting in another inefficient process within the organisation.
+
+Another fact we need to consider; fully Automated BI solutions that meet the needs of the organisation are very difficult to achieve, and the reasons for this are many and varied. Gartner have long stated that 70% of BI projects fail (and as I’ve already mentioned most BI projects will look to deliver an Automated solution). However there’s also a 30% success rate here so it is possible to achieve success. What we also need to realise though is Automated solutions aren’t fire and forget; the schedule jobs need monitoring, and will fail from time to time, and changes to underlying systems and support personnel will cause challenges on occasions.
+
+## What can we take from this?
+
+The most important thing we can do is give the right people the right information at the right time. How we achieve this doesn’t matter too much, it’s achieving it that matters.
+
+However we need to recognise and understand these different types of BI solutions, and we need to think about which one is the best fit for each BI need.
+
+Starting with a Manual POC and then developing that into a Repeatable and ultimately an Automated solution is certaingly a sound approach. In fact my experience has told me that going straight to Automated is the primary reason for that 70% failure rate in BI projects. Not going through those other channels first results in poorly understood and defined requirements and false expectations.
+
+## Conclusion
+
+Manual solutions should be temporary, Repeatable solutions should be the most common and Automated solutions are for those data sets that are most well understood and refreshed and used very regularly (i.e. daily).
+
+We’d love to hear your thoughts on this.

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="@regmtait">
+  <link rel=icon href="/theme-assets/roundel.svg" sizes="any" type="image/svg+xml">
+  <title>Manual vs Repeatable vs Automated BI • Cloud2</title>
+  <meta name="description" content="BI solutions can take many forms, and use may different technologies; however all BI solutions fall into one of 3 categories and will share many similarities...">
+  <meta name="keywords" content="Cloud2">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+
+  <script src="/js/jquery-1.10.2.js"></script>
+  <script src="/js/jquery.bxslider.js"></script>
+  <script src="/js/jquery-ui-1.10.3.custom.js"></script>
+  <script src="/js/cloud2.js"></script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3U7uwIvCyq01orxppAIC1v73y-FBGygY&callback=initMap"
+    async defer></script>
+
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('google-map'), {
+          center: {lat: 53.7943329, lng: -1.7529791},
+          zoom: 17,
+        });
+
+        var pointer = "/theme-assets/map-pointer.svg";
+
+        var marker = new google.maps.Marker({
+          position: map.getCenter(),
+          icon: pointer,
+          map: map
+        });
+
+      }
+    </script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/2017/04/07/bi.html">
+  <link rel="alternate" type="application/rss+xml" title="Cloud2" href="http://localhost:4000/feed.xml">
+
+</head>
+
+<body class="">
+
+<header class="site-header cf">
+
+	<nav class="site-nav cf">
+	<div class="wrapper">
+
+	<ul>
+  		<li data-wenk="" class="about"><a title="Get to know us" class="page-link" href="/about/">About us</a></li>
+  		<li data-wenk="Successful case studies" class="case-studies"><a title="Stories" class="page-link" href="/case-studies/">Stories</a></li>
+  		<li data-wenk="" class="blog"><a title="News" class="page-link" href="/blog/">News</a></li>
+  		<li data-wenk="" class="contact"><a title="Contact" class="page-link" href="/contact/">Contact</a></li>
+		</ul>
+	</div>
+	</nav>
+	<div class="product-nav-wrap">
+	<div class="wrapper cf">
+	<nav class="product-nav">
+		<a class="logo" href="/" title="Cloud2 home page">
+		<img class="nav-logo" src="/theme-assets/cloud2-logo.svg" title="Cloud2 logo" /></a>
+		<ul>
+	
+	
+	<li><a title="Intranets details" href="/solutions/hadron/">Intranets</a></li>
+
+	<li><a title="Analytics details" href="/solutions/meson/">Analytics</a></li>
+
+	<li><a title="Cloud details" href="/solutions/cloud/">Cloud</a></li>
+
+		</ul>
+	</nav>
+</div>
+</div>
+
+</header>
+
+
+
+<div class="page-content">
+ <div class="wrapper">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+<header class="post-header">
+<h1 class="post-title" itemprop="name headline">Manual vs Repeatable vs Automated BI</h1>
+<p class="post-meta"><time datetime="2017-04-07T01:00:00+01:00" itemprop="datePublished">Apr 7, 2017</time> by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Mark Robinson</span></span></p>
+</header>
+
+<div class="post-content" itemprop="articleBody">
+<p class="article-summary">BI solutions can take many forms, and use may different technologies; however all BI solutions fall into one of 3 categories and will share many similarities with other BI solutions in the same category.</p>
+
+<figure>
+<p><img src="/theme-assets/news/news-temp.jpg" alt="temp" title="Alt text here" /></p>
+
+<p class="caption">My caption</p>
+</figure>
+
+<h2 id="manual">Manual</h2>
+
+<p>The mast majority of BI solutions fall into the Manual category. These are often developed outside of BI and IT teams, but may by developed by the BI and IT Teams as proof of concepts or one off ad-hoc developments. Some Repeatable and Automated BI solutions start their lives as Manual solutions.</p>
+
+<p>A Manual solution is one that from Source to Report needs to be recreated or refreshed via a manual process; so the data needs extracting, transforming and aggregating manually and the charts and tables need refreshing manually also. Some Manual solutions may have some Repeatable and Automated elements to them but the vast majority are manual.</p>
+
+<p>Manual solutions are perfectly fine so long as they are one off’s, but if they need to be refreshed and reused in the future, whether that be annually or daily, they should be Repeatable solutions as least.</p>
+
+<h2 id="repeatable">Repeatable</h2>
+
+<p>Repeatable BI solutions are perhaps the least common as most remain as Manual solutions or become Automated solutions via a BI project or initiative.</p>
+
+<p>Repeatable solutions will most often be created by the BI and IT teams or by experienced and capable individuals outside of these teams. Due to the small number of people who can develop these, and the fact that they are rarely the result of a funded BI project, Repeatable BI solutions are without doubt the rarest and most under utilised of the three types. I say under utilised as they often deliver 60% to 80% of the value at 10% to 20% of the cost (certainly in terms of people time and cost).</p>
+
+<p>A Repeatable solution is one that from Source to Report can be refreshed with reduced manual effort. An example of this would be where the amount of data required has been minimised but is still extracted manually. This data is then copied and pasted into a pre-structured template to which the remainder of the solution is connected.</p>
+
+<p>In many Manual solutions aggregations (including formulas and calculations) need to be checked and/or reset manually. This shouldn’t be the case with a Repeatable solution as all aggregations should be applied to all new data with no manual intervention. In a typical Repeatable or Automated BI solution such aggregations would be performed in the data model or cube which would sit between the reports and the data template.</p>
+
+<p>Repeatable solutions are perfectly acceptable for Year, Quarter and Month end reporting but are less so for Weekly reporting and should be viewed as unfit for Daily, Hourly and Real Time reporting.</p>
+
+<h2 id="automated">Automated</h2>
+
+<p>Automated BI solutions are usually the result of a full blown BI project or initiative that will almost without exception be delivered by the BI and IT teams, or developers brought in by those teams.</p>
+
+<p>Automated solutions are those that from Source to Report refresh automatically i.e. the data is extracted, transformed and aggregated by scheduled jobs. In some cases reports will be refreshed and distributed by scheduled jobs also. There may be some Repeatable and/or Manual elements to the Automated solution but these will be few and far between.</p>
+
+<p>For many good, valid and I’ll assume obvious reasons, users and BI/IT teams alike strive to put in place Automated BI solutions. However the fact is these solutions almost always require significant investment in terms of time, money and resource; and because of this, and the limited availability of all three, often result in users reverting to a Manual solution – which then sticks around resulting in another inefficient process within the organisation.</p>
+
+<p>Another fact we need to consider; fully Automated BI solutions that meet the needs of the organisation are very difficult to achieve, and the reasons for this are many and varied. Gartner have long stated that 70% of BI projects fail (and as I’ve already mentioned most BI projects will look to deliver an Automated solution). However there’s also a 30% success rate here so it is possible to achieve success. What we also need to realise though is Automated solutions aren’t fire and forget; the schedule jobs need monitoring, and will fail from time to time, and changes to underlying systems and support personnel will cause challenges on occasions.</p>
+
+<h2 id="what-can-we-take-from-this">What can we take from this?</h2>
+
+<p>The most important thing we can do is give the right people the right information at the right time. How we achieve this doesn’t matter too much, it’s achieving it that matters.</p>
+
+<p>However we need to recognise and understand these different types of BI solutions, and we need to think about which one is the best fit for each BI need.</p>
+
+<p>Starting with a Manual POC and then developing that into a Repeatable and ultimately an Automated solution is certaingly a sound approach. In fact my experience has told me that going straight to Automated is the primary reason for that 70% failure rate in BI projects. Not going through those other channels first results in poorly understood and defined requirements and false expectations.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Manual solutions should be temporary, Repeatable solutions should be the most common and Automated solutions are for those data sets that are most well understood and refreshed and used very regularly (i.e. daily).</p>
+
+<p>We’d love to hear your thoughts on this.</p>
+
+</div>
+
+<a class="back-button" href="/blog/" title="Other stories">&larr; Other stories</a>
+
+</article>
+</div><!-- end wrapper -->
+
+</div>
+
+<footer class="site-footer cf">
+<div class="wrapper">
+
+<div class="grid">
+<div class="grid__col grid__col--6-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
+
+
+<img class="c2-logo-footer" src="/theme-assets/footer/cloud2-logo-white.svg" alt="Cloud2 logo">
+
+<ul>
+<li>2nd Floor, The Wool Exchange, 10 Hustlergate, Bradford BD11RE</li>
+<li><a href="mailto:getmore@cloud2.co.uk" title="Email us">getmore@cloud2.co.uk</a> • 01274 308378</li>
+</ul>
+
+
+<ul class="social footer-inline">
+<li><a href="https://plus.google.com/+Cloud2CoUk8020"><img class="footer-logo" src="/theme-assets/footer/googleplus.svg" alt="Google Plus"></a></li>
+<li><a href="https://plus.google.com/+Cloud2CoUk8020"><img class="footer-logo" src="/theme-assets/footer/twitter.svg" alt="Google Plus"></a></li>
+<li><a href="https://plus.google.com/+Cloud2CoUk8020"><img class="footer-logo" src="/theme-assets/footer/linkedin.svg" alt="Google Plus"></a></li>
+</ul>
+
+<ul class="footer-inline">
+<li>&copy; 2018 Cloud2 Ltd</li>
+<li>Reg 34567778</li>
+<li>VAT 36456456</li>
+<li><a href="/terms" title="Terms and Conditions">Terms &amp; Conditions</a></li>
+<li><a href="/privacy" title="Privacy Policy">Privacy Policy</a></li>
+
+</ul>
+
+</div>
+
+<div class="grid__col grid__col--2-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<img class="footer-ms" src="/theme-assets/footer/ms-partner.png" alt="Microsoft Partner">
+<img class="footer-ms" src="/theme-assets/footer/ms-finalist.png" alt="Microsoft Finalist">
+
+
+</div>
+</div><!-- end grid -->
+
+
+
+
+</div>
+</footer>
+
+</body>
+
+</html>

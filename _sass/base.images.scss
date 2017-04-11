@@ -1,0 +1,63 @@
+/*------------------------------------*\
+    # IMAGES
+\*------------------------------------*/
+
+.image-auto {
+  width: 100%;
+  height: auto;
+}
+
+
+.post img {
+  max-width: 100%;
+}
+
+
+
+figure {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  p {margin-top: 0;}
+    .caption {
+    font-size: 0.8rem;
+    margin-top: 0;
+    text-align: center;
+    max-width: 100% !important;
+    color: lighten($color-main, 10%);
+  }
+  img {
+    margin-bottom: -0.5rem !important;
+    width: 100% !important;
+  }
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #efefef;
+}
+
+.post-content p img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+
+@media only screen and (min-width: 40rem) {
+  figure {
+    width: 40%;
+    float: right;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+}
+
+
+
+
+
+.listing-thumb {
+  width: 100%;
+  
+}

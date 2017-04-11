@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+button, .button {
+box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+border-radius: 4px;
+color: #fff;
+background: $c2-blue;
+padding: 0.5rem 1rem;
+display: inline-block;
+width: auto;
+margin-top: 2rem;
+transition: 0.2s background ease;
+
+text-align: center;
+}
+
+a.button {
+	color: #fff;
+	font-weight: normal;
+}
+
+button:hover, .button:hover {
+background: $c2-midblue;
+}
+
+.button-container { // centre inline block
+	text-align: center;
+}

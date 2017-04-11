@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="155px" viewBox="0 0 155 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.000324262627%" y1="50.0000646%" x2="99.9998703%" y2="50.0000646%" id="linearGradient-1">
+            <stop stop-color="#0093C8" offset="0%"></stop>
+            <stop stop-color="#24A2D0" offset="9.61%"></stop>
+            <stop stop-color="#4CB3D9" offset="21.84%"></stop>
+            <stop stop-color="#68BFDF" offset="33.06%"></stop>
+            <stop stop-color="#79C6E2" offset="42.81%"></stop>
+            <stop stop-color="#80C9E4" offset="50%"></stop>
+            <stop stop-color="#7DC8E3" offset="62.2%"></stop>
+            <stop stop-color="#73C4E1" offset="70.82%"></stop>
+            <stop stop-color="#64BDDE" offset="78.34%"></stop>
+            <stop stop-color="#4EB4D9" offset="85.23%"></stop>
+            <stop stop-color="#31A8D3" offset="91.69%"></stop>
+            <stop stop-color="#0F99CC" offset="97.75%"></stop>
+            <stop stop-color="#0093C8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-9.47351192%" y1="111.165633%" x2="65.1531726%" y2="24.7839404%" id="linearGradient-2">
+            <stop stop-color="#8DA0BE" offset="52.76%"></stop>
+            <stop stop-color="#416192" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloud2-logo" transform="translate(-199.000000, -47.000000)" fill-rule="nonzero">
+            <g id="Group">
+                <g transform="translate(199.000000, 47.000000)" id="Shape">
+                    <path d="M77.846,0.222 C36.305,0.222 0.498,33.947 0.498,77.844 C0.498,119.393 34.734,154.938 77.846,154.938 C118.102,154.938 154.694,124.901 154.694,77.333 C154.694,69.043 153.454,61.185 151.163,53.859 L121.087,63.586 C122.442,67.912 123.183,72.561 123.183,77.441 C123.183,105.564 101.55,123.328 77.759,123.328 C52.271,123.328 32.009,102.299 32.009,77.75 C32.009,51.773 53.189,31.855 77.759,31.855 C77.777,31.855 77.823,31.865 77.847,31.865 L77.847,0.247" fill="url(#linearGradient-1)"></path>
+                    <path d="M77.846,31.864 C97.559,31.898 115.201,44.684 121.086,63.585 L151.162,53.858 C143.529,29.433 124.295,11.067 100.742,3.747 C100.262,3.586 99.763,3.452 99.283,3.309 C97.584,2.806 95.883,2.391 94.135,2.019 C93.416,1.872 92.699,1.706 91.979,1.579 C90.426,1.284 88.879,1.074 87.313,0.878 C86.481,0.766 85.655,0.649 84.805,0.569 C83.057,0.407 81.291,0.354 79.504,0.312 C78.957,0.299 78.41,0.246 77.846,0.246 L77.846,31.864 L77.846,31.864 Z" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud2</title>
+    <description>A cool white label website by Reg Tait built with Jekyll and using Dan Eden's Toast grid layout
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 11 Apr 2017 13:42:25 +0100</pubDate>
+    <lastBuildDate>Tue, 11 Apr 2017 13:42:25 +0100</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Manual vs Repeatable vs Automated BI</title>
+        <description>&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;/theme-assets/news/news-temp.jpg&quot; alt=&quot;temp&quot; title=&quot;Alt text here&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;My caption&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;manual&quot;&gt;Manual&lt;/h2&gt;
+
+&lt;p&gt;The mast majority of BI solutions fall into the Manual category. These are often developed outside of BI and IT teams, but may by developed by the BI and IT Teams as proof of concepts or one off ad-hoc developments. Some Repeatable and Automated BI solutions start their lives as Manual solutions.&lt;/p&gt;
+
+&lt;p&gt;A Manual solution is one that from Source to Report needs to be recreated or refreshed via a manual process; so the data needs extracting, transforming and aggregating manually and the charts and tables need refreshing manually also. Some Manual solutions may have some Repeatable and Automated elements to them but the vast majority are manual.&lt;/p&gt;
+
+&lt;p&gt;Manual solutions are perfectly fine so long as they are one off’s, but if they need to be refreshed and reused in the future, whether that be annually or daily, they should be Repeatable solutions as least.&lt;/p&gt;
+
+&lt;h2 id=&quot;repeatable&quot;&gt;Repeatable&lt;/h2&gt;
+
+&lt;p&gt;Repeatable BI solutions are perhaps the least common as most remain as Manual solutions or become Automated solutions via a BI project or initiative.&lt;/p&gt;
+
+&lt;p&gt;Repeatable solutions will most often be created by the BI and IT teams or by experienced and capable individuals outside of these teams. Due to the small number of people who can develop these, and the fact that they are rarely the result of a funded BI project, Repeatable BI solutions are without doubt the rarest and most under utilised of the three types. I say under utilised as they often deliver 60% to 80% of the value at 10% to 20% of the cost (certainly in terms of people time and cost).&lt;/p&gt;
+
+&lt;p&gt;A Repeatable solution is one that from Source to Report can be refreshed with reduced manual effort. An example of this would be where the amount of data required has been minimised but is still extracted manually. This data is then copied and pasted into a pre-structured template to which the remainder of the solution is connected.&lt;/p&gt;
+
+&lt;p&gt;In many Manual solutions aggregations (including formulas and calculations) need to be checked and/or reset manually. This shouldn’t be the case with a Repeatable solution as all aggregations should be applied to all new data with no manual intervention. In a typical Repeatable or Automated BI solution such aggregations would be performed in the data model or cube which would sit between the reports and the data template.&lt;/p&gt;
+
+&lt;p&gt;Repeatable solutions are perfectly acceptable for Year, Quarter and Month end reporting but are less so for Weekly reporting and should be viewed as unfit for Daily, Hourly and Real Time reporting.&lt;/p&gt;
+
+&lt;h2 id=&quot;automated&quot;&gt;Automated&lt;/h2&gt;
+
+&lt;p&gt;Automated BI solutions are usually the result of a full blown BI project or initiative that will almost without exception be delivered by the BI and IT teams, or developers brought in by those teams.&lt;/p&gt;
+
+&lt;p&gt;Automated solutions are those that from Source to Report refresh automatically i.e. the data is extracted, transformed and aggregated by scheduled jobs. In some cases reports will be refreshed and distributed by scheduled jobs also. There may be some Repeatable and/or Manual elements to the Automated solution but these will be few and far between.&lt;/p&gt;
+
+&lt;p&gt;For many good, valid and I’ll assume obvious reasons, users and BI/IT teams alike strive to put in place Automated BI solutions. However the fact is these solutions almost always require significant investment in terms of time, money and resource; and because of this, and the limited availability of all three, often result in users reverting to a Manual solution – which then sticks around resulting in another inefficient process within the organisation.&lt;/p&gt;
+
+&lt;p&gt;Another fact we need to consider; fully Automated BI solutions that meet the needs of the organisation are very difficult to achieve, and the reasons for this are many and varied. Gartner have long stated that 70% of BI projects fail (and as I’ve already mentioned most BI projects will look to deliver an Automated solution). However there’s also a 30% success rate here so it is possible to achieve success. What we also need to realise though is Automated solutions aren’t fire and forget; the schedule jobs need monitoring, and will fail from time to time, and changes to underlying systems and support personnel will cause challenges on occasions.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-we-take-from-this&quot;&gt;What can we take from this?&lt;/h2&gt;
+
+&lt;p&gt;The most important thing we can do is give the right people the right information at the right time. How we achieve this doesn’t matter too much, it’s achieving it that matters.&lt;/p&gt;
+
+&lt;p&gt;However we need to recognise and understand these different types of BI solutions, and we need to think about which one is the best fit for each BI need.&lt;/p&gt;
+
+&lt;p&gt;Starting with a Manual POC and then developing that into a Repeatable and ultimately an Automated solution is certaingly a sound approach. In fact my experience has told me that going straight to Automated is the primary reason for that 70% failure rate in BI projects. Not going through those other channels first results in poorly understood and defined requirements and false expectations.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Manual solutions should be temporary, Repeatable solutions should be the most common and Automated solutions are for those data sets that are most well understood and refreshed and used very regularly (i.e. daily).&lt;/p&gt;
+
+&lt;p&gt;We’d love to hear your thoughts on this.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Apr 2017 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2017/04/07/bi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/07/bi.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Another cool post</title>
+        <description>&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;/theme-assets/news/news-temp.jpg&quot; alt=&quot;temp&quot; title=&quot;Alt text here&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;My caption&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Quisque ut dolor gravida, placerat libero vel, euismod. Integer legentibus erat a ante historiarum dapibus. At nos hinc posthac, sitientis piros Afros. Nihil hic munitissimus habendi senatus locus, nihil horum? Vivamus sagittis lacus vel augue laoreet rutrum faucibus.&lt;/p&gt;
+
+&lt;p&gt;Donec sed odio operae, eu vulputate felis rhoncus. Inmensae subtilitatis, obscuris et malesuada fames. Hi omnes lingua, institutis, legibus inter se differunt. Praeterea iter est quasdam res quas ex communi. Curabitur est gravida et libero vitae dictum. Sed haec quis possit intrepidus aestimare tellus.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2016/11/02/blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/02/blog.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My title</title>
+        <description>&lt;p&gt;Ab illo tempore, ab est sed immemorabili. Sociis natoque netto penatibus et magnis dis parturient. Quam temere in vitiis, legem sancimus haerentia.&lt;/p&gt;
+
+&lt;p&gt;Integer legentibus erat a ante historiarum dapibus. Curabitur blandit tempus ardua ridiculus sed magna. Morbi fringilla convallis sapien, id pulvinar odio volutpat. Prima luce, cum quibus mons aliud  consensu ab eo. Quisque ut dolor gravida, placerat libero vel, euismod. At nos hinc posthac, sitientis piros Afros.&lt;/p&gt;
+
+&lt;p&gt;Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Contra legem facit qui id facit quod lex prohibet. Etiam habebis sem dicantur magna mollis euismod. Salutantibus vitae elit libero, a pharetra augue.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 May 2016 01:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2016/05/14/blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/14/blog.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

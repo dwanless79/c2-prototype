@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+a, a:visited {
+  background-color: transparent;
+  color: $c2-blue;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  //color: lighten($c2-orange, 5%);
+}

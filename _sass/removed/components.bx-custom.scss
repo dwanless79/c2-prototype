@@ -1,0 +1,66 @@
+/*------------------------------------*\
+    #BX
+\*------------------------------------*/
+
+.bxslider {
+  margin-top: 2rem;
+  .slide-img-wrap {
+    margin-bottom: 1rem;
+    clear: both;
+    width: 80%;
+    background: #ccc;
+  }
+  .slide-text {
+    display: block;
+    border: 1px solid #ccc;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    float: left;
+    position: relative;
+    padding-left: 2rem;
+  }
+  h2 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  ul {
+    margin-left: 0;
+    padding-right: 0;
+    list-style: none;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li:after {
+    content: " / ";
+  }
+  ul li:last-child:after {
+    content: "";
+  }
+}
+
+.page-slides {
+	//background: $bg-grey;
+	min-height: 500px;
+	//border: 1px solid $bg-grey;
+	border-radius: 4px 0 0 4px;
+}
+
+//Path overrides, avoids editing vendor file
+
+.bx-wrapper .bx-prev {
+	background: url(#{$themepath}/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	background: url(#{$themepath}/controls.png) no-repeat -43px -32px;
+}
+.bx-wrapper .bx-loading {
+	background: url(#{$themepath}/bx_loader.gif) center center no-repeat #fff;
+}

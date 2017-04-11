@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+//buttons
+
+$button-border: #69C83A;
+$button-bg: #CAF1A1;
+$button-hover-bg: darken($button-bg, 10%);
+$button-colour: #468500;
+$button-strong: darken($button-colour, 4%);
+$button-hover-strong: darken($button-colour, 14%);
+
+
+// ---------------- button fun ----------------//
+
+a.button, button {
+  border: 1px solid $button-border;
+  background-color: $button-bg;
+
+  padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  width: none;
+  color: $button-colour;
+  transition: color 0.1s ease;
+  transition: background 0.3s ease;
+   
+-webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.11);
+-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.11);
+box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.11);
+   
+}
+
+a.button strong, button strong {color: $button-strong;}
+a.button:hover, button:hover {background: $button-hover-bg;}
+a.button:hover strong, button:hover strong {color: $button-hover-strong;}
+
+a.button-inline {
+	float: right;
+	padding: 0.1rem 0.6rem;
+	margin:0;
+	border: none;
+	box-shadow: none;
+	font-size: 0.8rem;
+	position: relative;
+	top: -5px;
+}
+
+  
+ @media screen and (max-width: $width-medium - 1px) {   
+   a.button-inline {
+	float: none;
+	clear: both;
+	display: block;
+	text-align: center;
+	width: 60%;
+	margin: 1rem auto 0 auto;
+	padding: 0.3rem 0.6rem;
+	font-size: 1rem;
+    }
+    }

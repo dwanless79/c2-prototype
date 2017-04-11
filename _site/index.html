@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="@regmtait">
+  <link rel=icon href="/theme-assets/roundel.svg" sizes="any" type="image/svg+xml">
+  <title>Cloud2</title>
+  <meta name="description" content="A cool white label website by Reg Tait built with Jekyll and using Dan Eden's Toast grid layout
+">
+  <meta name="keywords" content="Cloud2">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+
+  <script src="/js/jquery-1.10.2.js"></script>
+  <script src="/js/jquery.bxslider.js"></script>
+  <script src="/js/jquery-ui-1.10.3.custom.js"></script>
+  <script src="/js/cloud2.js"></script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3U7uwIvCyq01orxppAIC1v73y-FBGygY&callback=initMap"
+    async defer></script>
+
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('google-map'), {
+          center: {lat: 53.7943329, lng: -1.7529791},
+          zoom: 17,
+        });
+
+        var pointer = "/theme-assets/map-pointer.svg";
+
+        var marker = new google.maps.Marker({
+          position: map.getCenter(),
+          icon: pointer,
+          map: map
+        });
+
+      }
+    </script>
+
+
+
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="Cloud2" href="http://localhost:4000/feed.xml">
+
+</head>
+
+<body class="home">
+
+<header class="site-header cf">
+
+	<nav class="site-nav cf">
+	<div class="wrapper">
+
+	<ul>
+  		<li data-wenk="" class="about"><a title="Get to know us" class="page-link" href="/about/">About us</a></li>
+  		<li data-wenk="Successful case studies" class="case-studies"><a title="Stories" class="page-link" href="/case-studies/">Stories</a></li>
+  		<li data-wenk="" class="blog"><a title="News" class="page-link" href="/blog/">News</a></li>
+  		<li data-wenk="" class="contact"><a title="Contact" class="page-link" href="/contact/">Contact</a></li>
+		</ul>
+	</div>
+	</nav>
+	<div class="product-nav-wrap">
+	<div class="wrapper cf">
+	<nav class="product-nav">
+		<a class="logo" href="/" title="Cloud2 home page">
+		<img class="nav-logo" src="/theme-assets/cloud2-logo.svg" title="Cloud2 logo" /></a>
+		<ul>
+	
+	
+	<li><a title="Intranets details" href="/solutions/hadron/">Intranets</a></li>
+
+	<li><a title="Analytics details" href="/solutions/meson/">Analytics</a></li>
+
+	<li><a title="Cloud details" href="/solutions/cloud/">Cloud</a></li>
+
+		</ul>
+	</nav>
+</div>
+</div>
+
+</header>
+
+
+
+<div class="page-content">
+ <div class="hero home-hero">
+<div class="wrapper">
+<div class="grid">
+
+<div class="grid__col grid__col--2-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
+<h1>Without change,<br>progress is impossible.</h1>
+<p class="subtitle">That sounds a bit dramatic, doesn’t it?  But is standing still ever really the best way to advance?</p>
+<p class="subtitle">We’re not so sure—which is why our digital solutions are all designed to help you change the way things are.
+</p>
+
+</div><!-- end grid cols -->
+
+</div><!-- end grid -->
+</div><!-- end wrapper -->
+</div><!-- end hero -->
+
+
+<section class="home-cards">
+
+<div class="wrapper">
+<div class="grid">
+
+
+
+  <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
+  <div class="card card-home">
+  <h2><a title="Intranets details" href="/solutions/hadron/">Intranets</a></h2>
+  <p class="card-intro">When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication.</p>
+  <img class="home-card-image cf" src="/theme-assets/solutions/placeholder.svg" title="Intranets">
+  <q class="card-quote" title="Intranets testimonial">In the end it took just eight weeks from deployment to launch – I couldn't believe how quick the turnaround was. Before Hadron, just 10% of people were ‘completely satisfied’ with our intranet. A year on, we’re at 96%. We have a clear communication structure and the intranet has become part of the language and culture of the Trust.</q>
+  <div class="button-container">
+  <a class="button card-button centred" title="Intranets details" href="/solutions/hadron/">Learn more</a>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
+  <div class="card card-home">
+  <h2><a title="Analytics details" href="/solutions/meson/">Analytics</a></h2>
+  <p class="card-intro">When different people need access to different reports and data, Power BI serves them with one complete version of the truth.</p>
+  <img class="home-card-image cf" src="/theme-assets/solutions/placeholder.svg" title="Analytics">
+  <q class="card-quote" title="Analytics testimonial">Meson takes away the need for very basic reports. The finance guys can now get their reports in two minutes rather than in two days, allowing my team to focus on more complex analytics, such as predictive analytics, rather than telling the organisation what it's just done.</q>
+  <div class="button-container">
+  <a class="button card-button centred" title="Analytics details" href="/solutions/meson/">Learn more</a>
+  </div>
+  </div>
+  </div>
+
+  
+  <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
+  <div class="card card-home">
+  <h2><a title="Cloud details" href="/solutions/cloud/">Cloud</a></h2>
+  <p class="card-intro">When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication.</p>
+  <img class="home-card-image cf" src="/theme-assets/solutions/placeholder.svg" title="Cloud">
+  <q class="card-quote" title="Cloud testimonial">In the end it took just eight weeks from deployment to launch – I couldn't believe how quick the turnaround was. Before Hadron, just 10% of people were ‘completely satisfied’ with our intranet. A year on, we’re at 96%. We have a clear communication structure and the intranet has become part of the language and culture of the Trust.</q>
+  <div class="button-container">
+  <a class="button card-button centred" title="Cloud details" href="/solutions/cloud/">Learn more</a>
+  </div>
+  </div>
+  </div>
+
+  
+
+</div><!--end grid-->
+</div><!--end wrapper-->
+
+</section>
+
+<section class="home-news">
+
+<div class="wrapper">
+
+<div class="card card-home">
+<h2>News</h2>
+
+<h3><a class="post-link" href="/2017/04/07/bi.html" title="Manual vs Repeatable vs Automated BI">Manual vs Repeatable vs Automated BI</a></h3>
+<p class="inline-post-date">Apr 7, 2017 by Mark Robinson</p>
+<p>BI solutions can take many forms, and use may different technologies; however all BI solutions fall into one of 3 categories and will share many similarities with other BI solutions in the same category.</p>
+
+</div><!-- end card -->
+
+<div class="grid">
+
+<div class="grid__col grid__col--1-of-2 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<h3><a class="post-link" href="/2016/11/02/blog.html" title="Another cool post">Another cool post</a></h3>
+<p><span class="inline-post-date">Nov 2, 2016—</span>Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Etiam habebis sem dicantur magna mollis euismod.</p>
+</div><!--end grid col -->
+
+<div class="grid__col grid__col--1-of-2 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<h3><a class="post-link" href="/2016/05/14/blog.html" title="My title">My title</a></h3>
+<p><span class="inline-post-date">May 14, 2016—</span>Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.</p>
+</div><!--end grid col -->
+
+</div>
+
+
+<div id="tweetWrap" class="tweetwrap js-tweets">
+</div>
+<script type="text/javascript" src="/js/mytweets.js"></script>
+
+</div><!-- end tweetwrap -->
+
+</div><!--end wrapper -->
+
+
+</section>
+
+
+
+
+
+</div>
+
+<footer class="site-footer cf">
+<div class="wrapper">
+
+<div class="grid">
+<div class="grid__col grid__col--6-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
+
+
+<img class="c2-logo-footer" src="/theme-assets/footer/cloud2-logo-white.svg" alt="Cloud2 logo">
+
+<ul>
+<li>2nd Floor, The Wool Exchange, 10 Hustlergate, Bradford BD11RE</li>
+<li><a href="mailto:getmore@cloud2.co.uk" title="Email us">getmore@cloud2.co.uk</a> • 01274 308378</li>
+</ul>
+
+
+<ul class="social footer-inline">
+<li><a href="https://plus.google.com/+Cloud2CoUk8020"><img class="footer-logo" src="/theme-assets/footer/googleplus.svg" alt="Google Plus"></a></li>
+<li><a href="https://plus.google.com/+Cloud2CoUk8020"><img class="footer-logo" src="/theme-assets/footer/twitter.svg" alt="Google Plus"></a></li>
+<li><a href="https://plus.google.com/+Cloud2CoUk8020"><img class="footer-logo" src="/theme-assets/footer/linkedin.svg" alt="Google Plus"></a></li>
+</ul>
+
+<ul class="footer-inline">
+<li>&copy; 2018 Cloud2 Ltd</li>
+<li>Reg 34567778</li>
+<li>VAT 36456456</li>
+<li><a href="/terms" title="Terms and Conditions">Terms &amp; Conditions</a></li>
+<li><a href="/privacy" title="Privacy Policy">Privacy Policy</a></li>
+
+</ul>
+
+</div>
+
+<div class="grid__col grid__col--2-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<img class="footer-ms" src="/theme-assets/footer/ms-partner.png" alt="Microsoft Partner">
+<img class="footer-ms" src="/theme-assets/footer/ms-finalist.png" alt="Microsoft Finalist">
+
+
+</div>
+</div><!-- end grid -->
+
+
+
+
+</div>
+</footer>
+
+</body>
+
+</html>

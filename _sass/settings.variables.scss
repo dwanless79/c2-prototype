@@ -1,0 +1,62 @@
+/*------------------------------------*\
+    #COLOURS
+\*------------------------------------*/
+
+$c2-darkblue:     #212936; // Dark blue
+$c2-midblue:      #426193; // Mid blue
+$c2-blue:         #0092C8; // Blue
+$c2-orange:       #e86e34; // Orange
+$c2-lightorange:  #fdb933; // Light orange
+$c2-green:        #72bf44; // Green
+$c2-lightgreen:   #bedc8f; // Light green
+$c2-purple:       #8c3694; // Purple
+$c2-lightpurple:  #c389bc; // Light purple
+
+
+$theme1: $c2-darkblue;
+$theme2: $c2-midblue;
+$color-main:$c2-darkblue;
+$color-main-lighter: #818181;
+
+$color-pale-bg: #fff;
+$color-grey-bg: #F6F6F6;
+$border-on-light: darken($color-pale-bg, 5%);
+
+$color-theme-light: lighten($theme1, 30%);
+$color-light: #fff;
+$color-grey: #767c87;
+$color-grey-dark: #35393B;
+$color-grey-light: #bfc0c1; // footer text etc
+$color-orange: #F5A623;
+
+$color-text-lighter: $color-grey;
+
+$inline-post-date: lighten($color-main, 40%);
+
+$color-link-dark: #B0b4b4;
+$strip-link: $theme1;
+
+$dark-bg-link: $color-grey-light;
+$grey-text: $color-grey-light;
+
+// callouts
+
+// layout
+
+$max-width: 50rem;
+$max-width-wide: 55rem;
+
+// widths
+
+$width-tiny: 400px; // use only if needed...
+
+$width-small: 600px;
+$width-medium: 960px;
+$width-large: 1024px;
+
+$width-giant: 1200px; // use only if needed...
+
+// paths
+
+//Usage: background-image: url(#{$themepath}/blockquote.png);
+$themepath: '/theme-assets';

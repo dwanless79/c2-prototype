@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    #QUOTES
+\*------------------------------------*/
+
+q {display: block;}
+
+blockquote {
+  margin-top: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  padding-left: 2rem;
+  background-image: url(#{$themepath}/blockquote.png);
+  background-image: url(#{$themepath}/blockquote.svg);
+  background-size: 23px 18px;
+  background-position: left 1rem;
+  background-repeat: no-repeat;
+  border-top: 1px solid $color-grey;
+  padding-top: 1rem;
+  p {margin-bottom: 1rem; color: #9e9e9e; margin-top: 0.5rem;}
+}
+
+blockquote a, blockquote a:visited {
+  color: $color-main;
+}
+
+blockquote a:hover {
+  color: darken($theme1, 10%);
+}
