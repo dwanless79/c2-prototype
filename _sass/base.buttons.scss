@@ -5,7 +5,10 @@
 button, .button {
 box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
 border-radius: 4px;
+border: none;
 color: #fff;
+font-size: 1rem;
+
 background: $c2-blue;
 padding: 0.5rem 1rem;
 display: inline-block;

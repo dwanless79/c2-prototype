@@ -21,12 +21,13 @@ footer {
 	}
 }
 
-
-
+fieldset {
+	border: none;
+	padding: 0;
+}
 
 .c2-logo-footer {
 	max-width: 150px;
-	height: auto;
 	margin-bottom: 1rem;
 }
 
@@ -39,9 +40,20 @@ footer ul {
 
 .footer-inline li {
 	display: inline;
-	margin-right: 0.5em;
+	margin-right: 0.5rem;
 }
 
+.social-logo li {
+	margin-right: 1rem;
+	display: inline;
+	a {
+		transition: 0.2s opacity ease;
+		opacity: 0.8;
+	}
+	a:hover {
+		opacity: 1;
+	}
+}
 
 .footer-ms {
 	width: 100%;

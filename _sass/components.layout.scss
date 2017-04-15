@@ -19,8 +19,6 @@ body {
 
 
 
-
-
 .post, .page-listing {
 	padding-top: 2rem;
 }
@@ -34,10 +32,22 @@ body {
 }
 
 
-
-
 .home-news {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	background: $color-grey-bg;
+	background-image: url(#{$themepath}/dots-top-right.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-position: static;
+	background-color: $color-grey-bg;
+}
+
+
+
+.cta {
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	border-top: 4px solid $c2-blue;
+	border-bottom: 4px solid $c2-blue;
+	///background-color: $c2-darkblue;
 }

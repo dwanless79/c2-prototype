@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+
+
+//.input-reset { -webkit-appearance: none; -moz-appearance: none; }
+//.button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }
+
+.c2-form {
+
+.label {
+    display: block;
+    opacity: 0.8;
+    margin-bottom: 0.25rem;
+}
+.label > span {
+}
+.input-field, .textarea-field {
+    width: 90%;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    transition: 0.2s all ease-out;
+    font-family: $type-body;
+}
+.input-field:focus,
+.textarea-field:focus,  
+.select-field:focus{
+  color: $c2-blue;
+  background: lighten($c2-blue, 60%);
+  box-shadow: 0 0 10px $c2-blue;
+  border: 1px solid $c2-blue;
+}
+.textarea-field {
+    height:100px;
+}
+
+}
+
+.form-dark {
+  .input-field, .textarea-field {
+    border: 1px solid #000;
+  }
+}
+.form-light {
+  .input-field, .textarea-field {
+    border: 1px solid #bbb;
+  }
+}

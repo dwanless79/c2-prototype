@@ -7,6 +7,8 @@ baseurl: ""
 url: "https://example.com"
 phone: "07800 100100"
 twitter_id: Cloud2Ltd
+linkedin: cloud2-ltd
+googleplus: "102289998183049121834"
 theme-path: theme-assets # path to header assets etc
 map-api-key: AIzaSyB3U7uwIvCyq01orxppAIC1v73y-FBGygY
 sass:
