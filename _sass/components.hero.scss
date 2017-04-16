@@ -3,18 +3,59 @@
 \*------------------------------------*/
 
 .hero {
-	color: #fff;
-	background-color: $c2-blue;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	//color: #fff;
+	//background-color: $c2-blue;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	//padding-bottom: 10rem;
+	.subtitle {
+		font-size: 1.5rem;
+	}
+	background-position: cover;
+	p {
+		font-family: 'avant-demi';
+		font-size: 1.3rem;
+
+	}
+	em {
+		font-style: normal;
+
+	}
+
 	h1 {
-		color: #fff;
+		//color: #fff;
 	}
 }
 
 
 .home-hero {
-	.subtitle {
-		font-size: 1.25rem;
+	h1 {
+		color: $c2-darkblue;
+		font-size: 52px;
 	}
+	.subtitle {
+		font-size: 1.5rem;
+	}
+	em {
+		color: #fff;
+	}
+	background-attachment: cover;
+	//background-attachment: fixed;
+	background-image: url(#{$themepath}/hero/home-rocket.jpg);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+@media (min-width: $toast-breakpoint-medium) {
+	.home-hero {
+		min-height: 500px;
+		//background: red !important;
+	}
+	.home-cards {
+			.card {
+		margin-top: -5rem;
+	}
+
+	}
+
 }

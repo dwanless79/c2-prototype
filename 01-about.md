@@ -1,6 +1,8 @@
 ---
 layout: about
-title: Get to know us
+title: About us
+hero-title: Get to know us.
+hero-text: We have a vision to be the leading enabler in digital transformation. And we do that by creating solutions for the digital workplace that our customers want, need and can efficiently use to make their working lives easier; so everyone can perform better and achieve more.
 nav-title: About us
 description:
 keywords: about
@@ -9,6 +11,7 @@ bannerpicsmall:
 excerpt:
 exclude_from_nav:
 intro: We'll do that by streamlining our customers' information, data and processes into one end-to-end digital workspace which accelerates our customers decision making, helping them achieve their efficiency targets and boosting their productivity. We couple our deep understanding of our customers' markets and a passion for their success, we get them going in weeks not years.
+
 nav-class: about
 permalink: /about/
 ---
