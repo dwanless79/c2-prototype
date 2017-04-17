@@ -9,7 +9,7 @@
   <div class="card card-home">
   <h2><a title="{{ solution.title }} details" href="{{ solution.url }}">{{ solution.title }}</a></h2>
   <p class="card-intro">{{ solution.home-intro }}</p>
-  <img class="home-card-image cf" src="/{{ site.theme-path }}/solutions/{% if solution.home-image %}{{ solution.home-image }}{% else %}placeholder.svg{{ page.title }}{% endif %}" title="{{ solution.title }}">
+  <img class="hide home-card-image cf" src="/{{ site.theme-path }}/solutions/{% if solution.home-image %}{{ solution.home-image }}{% else %}placeholder.svg{{ page.title }}{% endif %}" title="{{ solution.title }}">
   <q class="card-quote" title="{{ solution.title }} testimonial">{{ solution.home-quote }}</q>
   <div class="button-container">
   <a class="button card-button centred" title="{{ solution.title }} details" href="{{ solution.url }}">Learn more</a>

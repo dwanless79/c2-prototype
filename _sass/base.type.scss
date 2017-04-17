@@ -112,7 +112,6 @@ abbr {
 }
 
 abbr[title] {
-  //border-bottom: 1px dotted;
   text-decoration: none;
 }
 
@@ -172,22 +171,6 @@ sub {
   bottom: -0.25em;
 }
 
-aside {
-  padding: 1.5em 1.5em 0.5em 1.5em;
-  margin-bottom: 1em;
-  background: darken($color-pale-bg, 8%);
-  border: 2px solid darken($color-pale-bg, 12%);
-  h2, h3, h4 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid lighten($color-grey-light, 5%);
-  }
-  ul, p {
-    margin-bottom: 0;
-    color: lighten($color-main, 10%);
-  }
-}
 
 ::selection {
   background: $c2-blue;
@@ -236,6 +219,13 @@ figure {
   }
 }
 
+
+q {
+  color: $color-text-lighter;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 .page-content blockquote {
   margin-left: 0;
   margin-bottom: 1.5rem;
@@ -273,13 +263,6 @@ ul.schedule {
 
 @media screen and (min-width: $width-small) {
 
- aside {
-  float: right;
-  max-width: 20em;
-  margin-left: 2em;
- }
-
-
 }
 
 @media screen and (max-width: $width-small - 1px) {
@@ -316,7 +299,9 @@ ul.schedule {
 }
 
 @media screen and (min-width: $width-large) {
-  font-size: 24px;
+  html {
+  font-size: 20px;
+}
 }
 
 @media screen and (min-width: $width-giant) {

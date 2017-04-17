@@ -1,12 +1,10 @@
 <section class="home-news">
 
 <div class="wrapper">
-
-<div class="card card-home">
-<h2>News</h2>
+<div class="card">
 {% for post in site.posts limit:1 %}
-<h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-<p class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+<h2>Latest blog post: <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+<p class="blog-meta">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
 <p>{{ post.excerpt }}</p>
 {% endfor %}
 </div><!-- end card -->
@@ -15,7 +13,8 @@
 {% for post in site.posts limit:2 offset:1 %}
 <div class="grid__col grid__col--1-of-2 grid__col--m-1-of-2 grid__col--s-1-of-1">
 <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-<p><span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>{{ post.excerpt }}</p>
+<p class="blog-meta">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+<p>{{ post.excerpt }}</p>
 </div><!--end grid col -->
 {% endfor %}
 </div>

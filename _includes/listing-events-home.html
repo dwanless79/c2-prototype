@@ -1,0 +1,26 @@
+<section class="home-event">
+<div class="wrapper">
+{% assign items = site.event | sort: 'date' %}
+{% for event in site.event limit:1 %}
+<!-- [ {{ event.title }} list item ] -->
+<div class="card event-list-item">
+
+<div class="event-list-date event-list-date-inline">
+	<span class="month">{{ event.date | date: "%b" }}</span>
+	<span class="day">{{ event.date | date: "%-d" }}</span>
+	<span class="year">{{ event.date | date: "%Y" }}</span>
+</div>
+
+<h2 class="event-heading">Next event: <a title="{{ event.title }}{% if event.shortlocation %} at {{ event.shortlocation }}{% endif %} on {{ event.date | date: "%b %-d" }}" href="{{ event.url }}" href="{{ event.url }}">{{ event.title }}</a></h2>
+<h3 class="event-subheading">{{ event.shortlocation }}</h3>
+
+<p>{{ event.summary }}</p>
+
+<a class="event-details" title="Details of {{ event.title }}{% if event.shortlocation %} at {{ event.shortlocation }}{% endif %} on {{ event.date | date: "%b %-d" }}" href="{{ event.url }}">Event details</a>
+
+{% if event.booking-url %}<a href="{{ event.booking-url }}" title="Book {{ event.title }}{% if event.shortlocation %} at {{ event.shortlocation }}{% endif %} on {{ event.date | date: "%b %-d" }}" class="button">Book now</a>{% endif %}
+
+</div>
+{% endfor %}
+</div>
+</section>

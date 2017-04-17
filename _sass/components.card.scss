@@ -7,7 +7,7 @@
 	box-shadow: 0 0 8px 0 rgba(0,0,0,0.20);
 	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 	color: $color-main-lighter;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	position: relative;
 	h2 {
 		font-size: 1.5rem;
@@ -15,6 +15,10 @@
 	q {
 		display: block;
 	}
+}
+
+.card-intro {
+	color: $c2-darkblue;
 }
 
 .card-case {
@@ -41,7 +45,10 @@
 }
 
 .home-cards {
-	background: $color-grey-bg;
+	background-color: $color-grey-bg;
+	background-image: url(#{$themepath}/icons-strip.png);
+	background-position: bottom center;
+	background-repeat: repeat-x;
 	border-top: 5px solid darken($color-grey-bg, 10%);
 	position: relative;
 	.card {

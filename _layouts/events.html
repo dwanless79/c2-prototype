@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+
+<div class="wrapper">
+
+<article>
+
+<div class="post-content">
+
+{% if page.intro %}<p class="intro">{{ page.intro }}</p>{% endif %}
+
+{{ content }}
+</div>
+
+{% include listing-events.html %}
+
+</article>
+
+</div>
+
+
+

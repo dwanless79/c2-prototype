@@ -22,9 +22,9 @@ collections:
   case:
     output: true
     permalink: /case-studies/:path/
-  event-item:
+  event:
     output: true
-    permalink: /launch/:path/
+    permalink: /events/:path/
   partner:
     output: true
     permalink: /partners/:path/

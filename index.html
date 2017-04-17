@@ -1,4 +1,5 @@
 ---
+
 layout: default
 nav-class: home
 description: 
@@ -6,30 +7,16 @@ keywords:
 bannerpic:
 bannerpicsmall:
 nav-class: home
+hero-title: Without change,<br>progress is impossible.
+hero-text: 'That sounds a bit dramatic, doesn’t it? <br>But is standing still ever really the best way to advance?</p><p><em>We’re not so sure—which is why our digital solutions are all designed to help you change the way things are.</em>'
 ---
 
-
-<div class="hero home-hero">
-<div class="wrapper">
-<div class="grid">
-
-<div class="grid__col grid__col--3-of-5 grid__col--m-1-of-1 grid__col--s-1-of-1">
-<h1>Without change,<br>progress is impossible.</h1>
-<p><em>That sounds a bit dramatic, doesn’t it? <br>
-But is standing still ever really the best way to advance?</em></p>
-<p>We’re not so sure—which is why our digital solutions are all designed to help you change the way things are.
-</p>
-
-</div><!-- end grid cols -->
-
-</div><!-- end grid -->
-</div><!-- end wrapper -->
-</div><!-- end hero -->
-
-
+{% include hero.html %}
 
 {% include home-callouts.html %}
 
 {% include form-cta.html %}
+
+{% include listing-events-home.html %}
 
 {% include home-news.html %}

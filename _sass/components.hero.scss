@@ -3,59 +3,67 @@
 \*------------------------------------*/
 
 .hero {
-	//color: #fff;
-	//background-color: $c2-blue;
-	padding-top: 3rem;
+	color: #fff;
+	background-color: $c2-blue;
+	padding-top: 2rem;
 	padding-bottom: 2rem;
-	//padding-bottom: 10rem;
+		background-position: right center;
+	background-repeat: no-repeat;
 	.subtitle {
 		font-size: 1.5rem;
 	}
+	background-color: rgba(0, 0, 0, 0.6);
 	background-position: cover;
 	p {
 		font-family: 'avant-demi';
 		font-size: 1.3rem;
-
 	}
 	em {
 		font-style: normal;
-
 	}
-
 	h1 {
-		//color: #fff;
+		color: #fff;
 	}
 }
 
-
-.home-hero {
+.home.hero {
 	h1 {
 		color: $c2-darkblue;
-		font-size: 52px;
+		//font-size: 52px;
 	}
 	.subtitle {
 		font-size: 1.5rem;
 	}
-	em {
-		color: #fff;
+	p {
+		font-size: 1.2rem;
+		color: $c2-darkblue;
+	}
+	p em {
+		color: $c2-darkblue;
 	}
 	background-attachment: cover;
-	//background-attachment: fixed;
 	background-image: url(#{$themepath}/hero/home-rocket.jpg);
-	background-position: right center;
-	background-repeat: no-repeat;
+
+}
+
+@media (max-width: $toast-breakpoint-medium) {
+	.hero {
+	background-position: center center;
+
+	background-opacity: 0.5;
+	}
+	h1 {
+		font-size: 2rem;
+	}
 }
 
 @media (min-width: $toast-breakpoint-medium) {
-	.home-hero {
+	.hero.home {
 		min-height: 500px;
-		//background: red !important;
 	}
 	.home-cards {
-			.card {
-		margin-top: -5rem;
+		.card {
+			margin-top: -5rem;
+		}
 	}
-
-	}
-
 }

@@ -4,8 +4,6 @@ title:  "Manual vs Repeatable vs Automated BI"
 date:   2017-04-07 00:00:00 +0000
 author: Mark Robinson
 categories:
-# bannerpic: banner-temp.png
-bannerpicsmall:
 excerpt: BI solutions can take many forms, and use may different technologies; however all BI solutions fall into one of 3 categories and will share many similarities with other BI solutions in the same category.
 
 ---
