@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: News
+title: Blog
 description:
 keywords:
 bannerpic:

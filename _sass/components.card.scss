@@ -52,20 +52,20 @@
 	border-top: 5px solid darken($color-grey-bg, 10%);
 	position: relative;
 	.card {
-	margin-top: 2rem;
+		margin-top: 1rem;
 }
 }
 
-
-@media (min-width: $toast-breakpoint-medium) {
+@media (max-width: $toast-breakpoint-medium) {
 	.home-cards {
-			.card {
-		margin-top: -5rem;
-	}
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		.card {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		}
 	}
 }
-
-
 
 .card-link {
 	position: absolute;

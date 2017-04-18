@@ -5,6 +5,8 @@ categories:
 - health
 image_path: ""
 thumb: cwp-logo.png
+main-pic: cwp-grab.png
+image-caption: Pressure ulcer protocol served up with Hadron
 summary: Before switching to Hadron 8020, Cheshire and Wirral Partnership NHS Foundation Trust were reliant on a dated intranet that required improvement and slowed staff down. Now, staff have access to the information they need at the touch of a button.
 nav-class: case-studies
 permalink: case-studies/one/
@@ -12,11 +14,6 @@ permalink: case-studies/one/
 date: 2017-04-10 00:00:00 +0000
 
 ---
-
-<figure>
-{% markdown %}![temp](/images/case/cwp-grab.png "CWP main"){% endmarkdown %}
-<p class="caption">My caption</p>
-</figure>
 
 When Martin Dowler first heard CWP directors were considering  upgrading their intranet, it was music to his ears.
 
@@ -33,7 +30,6 @@ Staff are rightly focused on patient care and they don’t have the time or the 
 ## A geographically dispersed organisation in need
 
 CWP provides mental health, learning disability, physical health and substance misuse services - but from more than 66 physical locations. To ensure a uniform service, thousands of geographically dispersed staff members all need to be continuously reading from the same page.
-
 
 Every day, we need to make sure staff across our footprint are updated with correct processes, procedures and care guidelines for a wide range of conditions. Ensuring people have consistent information without sending a barrage of emails isn’t easy.”
 

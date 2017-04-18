@@ -5,10 +5,11 @@ image_path: ""
 categories:
 - analytics 
 thumb: tata-logo.png
-main-pic:
+main-pic: tata-photo.jpg
+image-caption: Innovation at Tata Steel
 summary: Tata Steel recognised the need to move to SharePoint Online following a strategic Intranet review in 2013 when it considered the limitations of its legacy Intranet.
-nav-class: case-studies
-permalink: case-studies/tata/
+nav-class: stories
+permalink:
 date: 2017-04-05 00:00:00 +0000
 
 ---
