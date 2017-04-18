@@ -2,26 +2,38 @@
 layout: default
 ---
 
+{% include hero.html %}
+
+<section class="home-news">
 
 <div class="wrapper">
+<div class="card">
+{% for post in site.posts limit:1 %}
+<h2 class="news-heading">Latest blog post: <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+<p class="news-meta">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+<p>{{ post.excerpt }}</p>
+{% endfor %}
+</div><!-- end card -->
 
-<article>
-
-<h1 class="post-title">{{ page.title }}</h1>
-
-<div class="post-content">
-{{ content }}
+<div class="grid">
+{% for post in site.posts limit:20 offset:1 %}
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="post-list-item">
+<h3 class="news-heading"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+<p class="news-meta">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+<p>{{ post.excerpt }}</p>
 </div>
-
-<div class="">
-{% for post in site.posts limit:10 %}
-<div class="listing"> 
-<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Read more: {{ post.title }}">{{ post.title }}</a></h2>
-<p><span class="inline-post-date">{{ post.date | date: "%b %-d, %Y" }}—</span>{{ post.excerpt }}</p>
-</div>
+</div><!--end grid col -->
 {% endfor %}
 </div>
 
-</article>
+<div id="tweetWrap" class="tweetwrap js-tweets">
+</div>
+<script type="text/javascript" src="/js/mytweets.js"></script>
 
-</div><!-- end wrapper -->
+</div><!-- end tweetwrap -->
+
+</div><!--end wrapper -->
+
+
+</section>
