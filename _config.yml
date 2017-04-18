@@ -4,7 +4,7 @@ email: getmore@cloud2.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Prototype for Cloud2 website
 baseurl: ""
-url: "https://example.com"
+url: "https://www.cloud2.co.uk"
 phone: "07800 100100"
 twitter_id: Cloud2Ltd
 linkedin: cloud2-ltd
