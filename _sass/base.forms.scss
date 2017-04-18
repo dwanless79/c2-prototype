@@ -33,7 +33,7 @@
   color: $c2-blue;
   background: lighten($c2-blue, 60%);
   box-shadow: 0 0 10px $c2-blue;
-  border: 1px solid $c2-blue;
+  border: 2px solid $c2-blue;
 }
 .textarea-field {
     height:100px;
@@ -43,11 +43,11 @@
 
 .form-dark {
   .input-field, .textarea-field {
-    border: 1px solid #000;
+    border: 2px solid #000;
   }
 }
 .form-light {
   .input-field, .textarea-field {
-    border: 1px solid #bbb;
+    border: 2px solid #ccc;
   }
 }
