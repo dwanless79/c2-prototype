@@ -46,7 +46,7 @@ nav {
 		border-right: 1px solid #E7E7E7;
 	}
 	li a.current {
-			color: darken($c2-orange, 20%);	
+			color: darken($color-text-lighter, 20%);	
 	}
 	li:first-child {
 		margin-left: 0;
