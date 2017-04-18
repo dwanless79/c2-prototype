@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Another cool post"
-date:   2016-11-02 00:00:00 +0000
+date:   2017-03-01 00:00:00 +0000
 author: Arzu Kanval
 categories:
 excerpt: Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Etiam habebis sem dicantur magna mollis euismod.
