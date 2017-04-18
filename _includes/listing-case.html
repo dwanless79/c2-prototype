@@ -7,10 +7,11 @@
 {% for case in site.case reversed %}
 <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2  grid__col--s-1-of-1 js-card-fade {% if case.categories %}{{ case.categories }}{% endif %}" {% if case.categories %}data-category="{{ case.categories }}{% endif %}">
 <div class="card card-case">
-<img class="case-thumb" src="{% if case.thumb %}/images/stories/{{ case.thumb }}{% else %}http://placehold.it/400x300?text=case+study-logo{% endif %}" alt="{{ case.title }}"/>
-
-<h2><a title="{{ case.title }} Case study details" href="{{ case.url }}">{{ case.title }}</a></h2>
-<p>{{ case.summary }}</p>
+<div class="content-wrap">
+	<img class="case-thumb" src="{% if case.thumb %}/images/stories/{{ case.thumb }}{% else %}http://placehold.it/400x300?text=case+study-logo{% endif %}" alt="{{ case.title }}"/>
+	<h2><a title="{{ case.title }} Case study details" href="{{ case.url }}">{{ case.title }}</a></h2>
+	<p>{{ case.summary }}</p>
+</div>
 <a class="card-link" title="{{ case.title }} details" href="{{ case.url }}">Read more</a>
 </div><!-- end card -->
 </div><!-- end grid col -->

@@ -21,9 +21,6 @@
 	color: $c2-darkblue;
 }
 
-.card-case {
-		min-height: 24rem;
-}
 
 .card-home h2 {
 	margin-top: 0.25rem;
@@ -56,7 +53,14 @@
 }
 }
 
-@media (max-width: $toast-breakpoint-medium) {
+@media (min-width: $toast-breakpoint-medium) {
+	.card-case .content-wrap {
+		min-height: 24rem;
+	}
+}
+
+
+@media (min-width: $toast-breakpoint-medium) {
 	.home-cards {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
@@ -67,10 +71,9 @@
 	}
 }
 
+
 .card-link {
-	position: absolute;
-	bottom: 1.5rem;
-	left: 1.5rem;
+	margin-top: 1rem;
 	font-weight: normal;
 }
 
