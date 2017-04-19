@@ -4,6 +4,7 @@ title: Speed and delivery in a fully featured intranet
 image_path: ""
 categories:
 - analytics 
+- health
 thumb: tata-logo.png
 main-pic: tata-photo.jpg
 image-caption: Innovation at Tata Steel
