@@ -21,7 +21,6 @@
 	color: $c2-darkblue;
 }
 
-
 .card-home h2 {
 	margin-top: 0.25rem;
 }
@@ -42,15 +41,19 @@
 }
 
 .home-cards {
-	background-color: $color-grey-bg;
+	//background-color: $color-grey-bg;
+	background-color: #f1f3e4; // sampled off the photo
 	background-image: url(#{$themepath}/icons-strip.png);
 	background-position: bottom center;
+	background-attachment: fixed;
 	background-repeat: repeat-x;
-	border-top: 5px solid darken($color-grey-bg, 10%);
+	//border-top: 5px solid darken($color-grey-bg, 10%);
+	border-top: 5px solid #716f6f; // sampled off the photo
+
 	position: relative;
 	.card {
 		margin-top: 1rem;
-}
+	}
 }
 
 @media (min-width: $toast-breakpoint-medium) {
