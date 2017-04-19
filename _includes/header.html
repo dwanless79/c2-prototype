@@ -1,26 +1,32 @@
-<header class="site-header cf">
+<header class="site-header">
 
 	<nav class="site-nav cf">
 	<div class="wrapper">
 
-	<ul>{% for page in site.pages %}{% if page.title %}{% unless page.exclude_from_nav %}
-  		<li data-wenk="{{ page.description }}" class="{{ page.nav-class }}"><a title="{{ page.title }}" class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>{% endunless %}{% endif %}{% endfor %}
+		<ul class="quick-contact">
+		<li><a href="tel:+1274308378" title="Call {{ site.title }} on {{ site.phone }}">{{ site.phone }}</a></li>
+		<li><a href="mailto:{{ site.email }}" title="Email {{ site.title }}">{{ site.email }}</a></li>
 		</ul>
-	</div>
+
+		<ul class="main-nav">{% for page in site.pages %}{% if page.title %}{% unless page.exclude_from_nav %}
+  		<li class="{{ page.nav-class }}"><a title="{{ page.title }} • {{ site.title }}" class="page-link" href="{{ page.url | prepend: site.baseurl }}">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>{% endunless %}{% endif %}{% endfor %}
+		</ul>
+		</div><!-- end wrapper -->
 	</nav>
-	<div class="product-nav-wrap">
-	<div class="wrapper cf">
+
+	<div class="product-nav-wrap cf">
+	<div class="wrapper">
 	<nav class="product-nav">
 		<a class="logo" href="{{ site.baseurl }}/" title="{{ site.title }} home page">
 		<img class="nav-logo" src="/{{ site.theme-path }}/cloud2-logo.svg" title="{{ site.title }} logo" /></a>
-		<ul>
-	{% assign items = site.solution | sort: 'date' %}
-	{% for solution in site.solution limit:10 %}
-	<li><a title="{{ solution.title }} details" href="{{ solution.url }}">{{ solution.title }}</a></li>
-{% endfor %}
+		<ul class="product-nav-ul">
+			{% assign items = site.solution | sort: 'date' %}
+			{% for solution in site.solution limit:10 %}
+			<li><a title="{{ solution.title }} details" href="{{ solution.url }}">{{ solution.title }}</a></li>
+		{% endfor %}
 		</ul>
 	</nav>
-</div>
-</div>
+	</div>
+	</div>
 
 </header>
