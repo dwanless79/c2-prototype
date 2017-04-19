@@ -11,7 +11,7 @@
 	<span class="year">{{ event.date | date: "%Y" }}</span>
 </div>
 
-<h2 class="event-heading">Next event: <a title="{{ event.title }}{% if event.shortlocation %} at {{ event.shortlocation }}{% endif %} on {{ event.date | date: "%b %-d" }}" href="{{ event.url }}" href="{{ event.url }}">{{ event.title }}</a></h2>
+<h2 class="event-heading">Next event: <a title="{{ event.title }}{% if event.shortlocation %} at {{ event.shortlocation }}{% endif %} on {{ event.date | date: "%b %-d" }}" href="{{ event.url }}">{{ event.title }}</a></h2>
 <h3 class="event-subheading">{{ event.shortlocation }}</h3>
 
 <p>{{ event.summary }}</p>
