@@ -66,9 +66,13 @@ h2.event-heading, h3.event-subheading {
 }
 
 .home-event {
+	background-image: url(#{$themepath}/dots-top-left.svg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background: #eee;
+	background-color: #eee;
 	border-bottom: 1px solid #ddd;
 	//background: linear-gradient(10deg, $c2-midblue 0%, $c2-blue 100%);
 }
