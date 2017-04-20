@@ -41,16 +41,24 @@ $(document).ready(function() {
 		$('.grid__col.'+ catclass).fadeIn(500);
 	$('ul.categories li a').removeClass('current');
 	$('ul.categories li a.'+ catclass).addClass('current');
-
 	});
-
-
 
 	$('.js-show-all').click(function(event) {
 		event.preventDefault();
 		$('ul.categories li a').removeClass('current');
 		$('.js-card-fade').hide();
 		$('.js-card-fade').fadeIn(500);
+	});
+
+	//=========== [ Workspaces ]
+	$('.js-workspace-card-link').click(function(event) {
+		//event.preventDefault();
+		var workspace = $(this).data('workspace');
+		$('.js-workspace-fade').hide();
+		//alert(workspace);
+		$('.js-workspace-fade.'+ workspace).fadeIn(500);
+		$('.js-workspace-card-link').removeClass('current');
+		$('.js-workspace-card-link.'+ workspace).addClass('current');
 	});
 
 	//=========== [ Accordion, uses JQuery UI ]

@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    #DIGITAL WORKSPACES
+\*------------------------------------*/
+
+$ws: $c2-purple;
+
+.home-workspaces {
+	background-color: $ws;
+	background-image: url(#{$themepath}/meson-white-grid.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	h2, .intro {
+		color: #fff;
+	}
+}
+
+.workspace-list {
+	padding-top: 1rem;
+}
+
+.workspace-image {
+	width: 34px;
+	height: auto;
+	text-align: center;
+}
+
+.workspace-card {
+	padding: 0;
+	color: darken($ws, 20%);
+	margin-bottom: 1.5rem;
+	position: relative;
+	border-radius: 4px;
+
+}
+
+a.workspace-card-link {
+	 display: block;
+	 float: left;
+	 width: 100%;
+	 color: #fff;
+	transition: all 0.3s ease;
+ }
+
+a.workspace-card-link:hover h3,  a.workspace-card-link.current h3 {
+	 color: $c2-lightorange;
+ }
+
+.workspace-card-heading {
+	margin-top: 0.5rem;
+	margin-bottom: 0;
+	font-size: 1.2rem;
+	text-shadow: 1px 2px 2px darken($ws, 20%);
+}
+
+.workspace-details {
+	h3 {
+		color: $c2-purple;
+		margin-top: 0;
+	}
+	padding: 1rem;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background: rgba(255,255,255, 0.8);
+}
