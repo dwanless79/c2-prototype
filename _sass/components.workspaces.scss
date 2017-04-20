@@ -12,6 +12,7 @@ $ws: $c2-purple;
 	background-attachment: fixed;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
+	border-bottom: 5px solid darken($ws, 8%);
 	h2, .intro {
 		color: #fff;
 	}
@@ -33,7 +34,6 @@ $ws: $c2-purple;
 	margin-bottom: 1.5rem;
 	position: relative;
 	border-radius: 4px;
-
 }
 
 a.workspace-card-link {
@@ -41,11 +41,11 @@ a.workspace-card-link {
 	 float: left;
 	 width: 100%;
 	 color: #fff;
-	transition: all 0.3s ease;
  }
 
 a.workspace-card-link:hover h3,  a.workspace-card-link.current h3 {
 	 color: $c2-lightorange;
+	 transition: all 0.2s ease;
  }
 
 .workspace-card-heading {
