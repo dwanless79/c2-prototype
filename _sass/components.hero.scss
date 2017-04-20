@@ -7,7 +7,7 @@
 	background-color: $c2-blue;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-		background-position: right center;
+	background-position: right center;
 	background-repeat: no-repeat;
 	.subtitle {
 		font-size: 1.5rem;
@@ -25,6 +25,20 @@
 	h1 {
 		color: #fff;
 	}
+}
+
+
+.case-hero {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	border-bottom: 4px solid #eee;
+	h1 {
+		margin-top: 1rem;
+	}
+}
+
+.case-hero-thumb {
+	max-width: 80px;
 }
 
 .home.hero {
