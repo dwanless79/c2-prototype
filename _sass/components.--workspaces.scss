@@ -5,11 +5,7 @@
 $ws: $c2-purple;
 
 .home-workspaces {
-	background-color: $ws;
-	background-image: url(#{$themepath}/meson-white-grid.svg);
-	background-position: top right;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background: $ws;
 	padding-top: 1rem;
 	padding-bottom: 2rem;
 	h2, .intro {
@@ -17,8 +13,12 @@ $ws: $c2-purple;
 	}
 }
 
-.workspace-list {
-	padding-top: 1rem;
+.workspace-image-wrap {
+	background-color: darken($ws, 10%);
+	display: block;
+	padding: 0.5rem;
+	border-radius: 200px;
+	float: left;
 }
 
 .workspace-image {
@@ -28,59 +28,44 @@ $ws: $c2-purple;
 }
 
 .workspace-card {
+	//background: rgba(255,255,255,1);
+	//box-shadow: 0 0 8px 0 rgba(0,0,0,0.20);
 	padding: 0;
 	color: darken($ws, 20%);
 	margin-bottom: 1.5rem;
 	position: relative;
 	border-radius: 4px;
-
 }
+
 
 a.workspace-card-link {
 	 display: block;
 	 float: left;
 	 width: 100%;
 	 color: #fff;
-	transition: all 0.3s ease;
  }
 
-a.workspace-card-link:hover h3,  a.workspace-card-link.current h3 {
-	 color: $c2-lightorange;
- }
-
-.workspace-card-heading {
-	margin-top: 0.5rem;
-	margin-bottom: 0;
-	font-size: 1.2rem;
-	text-shadow: 1px 2px 2px darken($ws, 20%);
+.workspace-card-link:hover .workspace-image-wrap {
+	background-color: lighten($ws, 10%);
 }
 
+.workspace-card-heading {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 0.8rem;
+	max-width: 4rem;
+	float: left;
+	margin-left: 1rem;
+}
+
+
 .workspace-details {
-	overflow: hidden;
-	position: relative;
-	p {
-		position: relative;
-		z-index: 20;
-	}
 	h3 {
-		position: relative;
 		color: $c2-purple;
 		margin-top: 0;
-		z-index: 20;
-
 	}
 	padding: 1rem;
 	border: 1px solid #fff;
 	border-radius: 4px;
 	background: rgba(255,255,255, 0.8);
-	img {
-		position: absolute;
-		right: 2rem;
-		top: 2rem;
-		z-index: 10;
-		width: 6rem;
-		opacity: 0.4;
-		height: auto;
-	}
-
 }
