@@ -68,15 +68,15 @@ h2, .subtitle {
   margin-bottom: 1rem;
   line-height: 1.2;
   a {
-    color: $c2-midblue;
+    color: $c2-blue;
     font-weight: normal;
     transition: 0.2s color ease;
   }
   a:visited {
-    color: $c2-midblue;
+    color: $c2-blue;
   }
 a:hover {
-  color: $c2-blue;
+  color: $c2-midblue;
 }
 }
 
