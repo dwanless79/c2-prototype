@@ -10,16 +10,17 @@ layout: default
 <p class="intro">{{ page.intro }}</p>
 
 <nav class="cf">
-<ul class="page-subnav">
+<ul class="page-subnav js-scroll-about">
 <li><a href="#team" title="Meet the team">Meet the team</a></li>
-<li><a href="#workplace" title="Our workplace">Workplace</a></li>
-<li><a href="#directors" title="Meet the directors">Directors</a></li>
-<li><a href="#partners" title="Partners">Partners</a></li>
+<!--<li><a href="" title="Our workplace">Workplace</a></li>-->
+<li><a href="#meet-the-directors" title="Meet the directors">Directors</a></li>
+<li><a href="#we-work-with-the-best" title="Partners">Partners</a></li>
 <li><a href="#values" title="Values">Values</a></li>
+<li><a href="#principles" title="Principles">Principles</a></li>
 </ul>
 </nav>
 
-<section class="profiles">
+<section class="profiles" id="team">
 
 {% assign items = site.profile | sort: 'date' %}
 <div class="grid">
@@ -49,7 +50,7 @@ layout: default
 </article>
 
 {% assign items = site.partner | sort: 'date' %}
-<div class="grid partners">
+<div class="grid partners" id="partners">
 {% for partner in site.partner limit:4 %}
 <div class="partner grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
 <div class="logo-wrap">
@@ -61,26 +62,39 @@ layout: default
 {% endfor %}
 </div><!--end grid -->
 
-
-
-<div class="accordion-wrap cf">
+<div id="values" class="accordion-wrap cf">
+<h2>Our values</h2>
 <div class="accordion">
-<h2>Accordion title</h2>
-<div class="accordion-content">
-<p>Me non paenitet nullum festiviorem excogitasse ad hoc. Cras mattis iudicium purus sit amet fermentum. Integer legentibus erat a ante historiarum dapibus. Hi omnes lingua, institutis, legibus inter se differunt.</p>
-</div>
-<h2>Accordion title</h2>
-<div class="accordion-content">
-<p>Me non paenitet nullum festiviorem excogitasse ad hoc. Cras mattis iudicium purus sit amet fermentum. Integer legentibus erat a ante historiarum dapibus. Hi omnes lingua, institutis, legibus inter se differunt.</p>
-</div>
+
+{% assign items = page.values %}
+{% for values in page.values limit:100 %}
+	<h3>{{ values.title }}</h3>
+	<div class="accordion-content">
+	<p>{{ values.text }}</p>
+	</div>
+{% endfor %}
 
 </div><!-- end ac wrap -->
 
+
+<div id="principles" class="accordion-wrap cf">
+<h2>Our Business Principles</h2>
+<div class="accordion">
+
+{% assign items = page.principles %}
+{% for principles in page.principles limit:100 %}
+	<h3>{{ principles.title }}</h3>
+	<div class="accordion-content">
+	<p>{{ principles.text }}</p>
+	</div>
+{% endfor %}
+
+</div><!-- end ac wrap -->
+
+
+
+
 </div>
-
-
-
-
 </div>
 
 

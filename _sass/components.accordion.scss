@@ -79,6 +79,9 @@
 	background-repeat: no-repeat;
 }
 
+.accordion-wrap {
+	margin-bottom: 2rem;
+}
 
 .accordion {
 	border-top: 1px solid #919191 !important;
@@ -89,8 +92,21 @@
 	transition:all .5s ease;
 }
 
+.accordion h3 {
+	max-width: 100%;
+	transition: color 0.2s ease;
+	}
+
+.accordion h3:hover, .accordion h3.ui-state-active {
+	color: $c2-midblue;
+	}
+
+
+
 .accordion div.accordion-content {
-	border-bottom: 1px solid #919191;
+	border-bottom: 1px solid #eee;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
 }
 
 
@@ -100,7 +116,7 @@
 	position: relative;
 	margin-top: 0px !important;
 	margin-bottom: 0 !important;
-	border-bottom: 1px solid #919191;
+	border-bottom: 1px solid #eee;
 	padding: 1em 0 1em 0;
 	min-height: 0;
 }

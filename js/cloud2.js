@@ -23,22 +23,15 @@ $(document).ready(function() {
 		$(".js-scroll").localScroll({ /* targets the links INSIDE controls*/
 			duration: 500
 		});
-	});
 
-	//=========== [ LocalScroll ]
-	// Scroll to top actions
-	$(function() {
-		$("#top").localScroll({
-			duration: 500
-		});
-		$("#wrapper").localScroll({
+		$(".js-scroll-about").localScroll({
 			duration: 500,
 			offset: {
-				top: 90
+				top: 20
 			}
 		});
-	});
 
+	});
 
 	//=========== [ Card toggles ]
 	$('.js-cat-link').click(function(event) {
@@ -76,7 +69,7 @@ $(document).ready(function() {
 			active: false,
 			icons: false,
 			collapsible: true,
-			animate: 700
+			animate: 500
 		});
 	});
 

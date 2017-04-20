@@ -7,6 +7,7 @@ hero-title: Intranets
 hero-text: When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication. 
 product-logo: hadron-logo.png
 home-quote: In the end it took just eight weeks from deployment to launch – I couldn't believe how quick the turnaround was. Before Hadron, just 10% of people were ‘completely satisfied’ with our intranet. A year on, we’re at 96%. We have a clear communication structure and the intranet has become part of the language and culture of the Trust.
+home-intro: When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication.
 cta-text: There’s a lot take in there – and we’ve barely scratched the surface. To get answers to your specific questions, just enter your details below. We’ll arrange a convenient time to show you what the above digital workspaces can do for you, offering free advice and ideas.
 home-image:
 summary: A new intranet in 8 weeks. (And one that people actually like using.)
