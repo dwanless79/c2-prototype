@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    #SUBNAV
+\*------------------------------------*/
+
+.page-subnav, .categories {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    li {
+	    display: inline-block;
+	    margin-left: 1rem;
+	    padding-right: 1rem;
+	    border-right: 1px solid #E7E7E7;
+	}
+	li:first-child {
+		margin-left: 0;
+	}
+}
