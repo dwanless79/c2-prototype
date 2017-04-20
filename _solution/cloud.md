@@ -1,13 +1,16 @@
 ---
-layout: case
+layout: solution
 title: Cloud
 image_path: ""
+hero-title: Cloud
+hero-text: 
+product-logo:
 home-intro: When moving to the Cloud seems prosperous but daunting, we ensure you reap headache-free rewards.
 home-quote: Moving our SQL Servers into Azure is actually an exciting prospect now.  We’re expecting to save £11.3m over the next three years.  What's even more exciting is that the investment we'll be making into Office 365 will not only give our staff the freedom to work from wherever they are but the financial investment will be recovered in two months!
 home-image:
 summary: Quid securi etiam tamquam eu fugiat nulla pariatur. Ceteris in veneratione tui montes, nascetur mus. Nihil hic munitissimus habendi senatus locus, nihil horum? Vivamus sagittis lacus vel augue laoreet rutrum faucibus.
-nav-class: solution
-permalink: solutions/cloud/
+nav-class: cloud
+permalink:
 date: 2016-10-02 00:00:00 +0000
 
 ---
