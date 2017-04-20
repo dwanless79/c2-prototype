@@ -17,6 +17,14 @@
 }());
 $(document).ready(function() {
 
+		//=========== [ LocalScroll ]
+	// Scroll to top actions
+	$(function() {
+		$(".js-scroll").localScroll({ /* targets the links INSIDE controls*/
+			duration: 500
+		});
+	});
+
 	//=========== [ LocalScroll ]
 	// Scroll to top actions
 	$(function() {
