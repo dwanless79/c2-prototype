@@ -1,11 +1,9 @@
 <section class="cta">
 <div class="wrapper">
 
-{% markdown %}
-## Would you prefer to talk to a human?
+<h2>Would you prefer to talk to a human?</h2>
 
-No matter what we say here, you’re probably going to have specific questions you need answered. Send them our way and we’ll make sure you have all the information you need. Just fill in the form below and we’ll get back to you. If it’s of use, we can arrange a convenient time to demonstrate our solutions. And as you’d expect, there’s no obligation or pressure whatsoever.
-{% endmarkdown %}
+<p>{% if page.cta-text %}{{ page.cta-text }}{% else %}Enter your details to get in touch.{% endif %}</p>
 
  <form class="c2-form form-light">
 <fieldset>
