@@ -51,3 +51,9 @@
     border: 2px solid #ccc;
   }
 }
+
+@media (max-width: $toast-breakpoint-small) {
+  form .grid__col { // not sure why this is needed to make grid work.
+    width: 100%;
+  }
+}
