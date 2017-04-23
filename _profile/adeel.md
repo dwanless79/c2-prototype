@@ -1,6 +1,6 @@
 ---
 title: Adeel
-job-title: My job Title
+job-title: Product Support
 pic:
 date: 2017-01-01 00:00:00 +0000
 summary: Hi, I’m Adeel, and I help you solve any issues you may have with your solutions.

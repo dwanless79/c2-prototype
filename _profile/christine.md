@@ -1,6 +1,6 @@
 ---
 title: Christine
-job-title: Accountant
+job-title: Finance Manager
 pic:
 date: 2017-01-01 00:00:00 +0000
 summary: Hi, I’m Christine and I look after the money, both coming in and going out.
