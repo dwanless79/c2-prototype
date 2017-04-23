@@ -51,7 +51,7 @@ principles:
 
 They knew that these projects failed because the solutions delivered weren't adopted, but what experience also taught them was that although organisations may be different, their needs from e.g. an intranet (our first solution), were about 80% the same. The customers would then require some customisation to make it feel their own. 
 
-So hence was born our agile 80/20 methodology. The first solution accelerator delivered was our flagship intranet – Hadron.  It came 80% pre-built (out-of-the-box) and 20% customisable.  And this 80/20 methodology still holds true to this day. 
+So hence was born our agile 80/20 methodology. The first solution accelerator delivered was our flagship intranet – Hadron. It came 80% pre-built (out-of-the-box) and 20% customisable.  And this 80/20 methodology still holds true to this day. 
 
 Taran and Simon don’t have technical backgrounds yet are passionate about delivering business solutions to our clients that improve outcomes and make a difference - fast. In fact, the fastest they've delivered a SharePoint project is six weeks.
 
