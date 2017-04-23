@@ -45,14 +45,12 @@
 }
 
 .home-cards {
-	//background-color: $color-grey-bg;
 	background-color: #f1f3e4; // sampled off the photo
 	background-image: url(#{$themepath}/icons-strip.png);
 	background-position: bottom center;
 	background-attachment: fixed;
 	background-repeat: repeat-x;
-	//border-top: 5px solid darken($color-grey-bg, 10%);
-	border-top: 5px solid #716f6f; // sampled off the photo
+	border-top: 5px solid #716f6f;
 
 	position: relative;
 	.card {
@@ -60,7 +58,7 @@
 	}
 }
 
-@media (min-width: $toast-breakpoint-medium) {
+@media (max-width: $toast-breakpoint-medium) {
 	.home-cards {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
