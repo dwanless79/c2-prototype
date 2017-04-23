@@ -3,7 +3,7 @@ layout: case
 title: Hadron helps Queen Victoria Hospital
 image_path: ""
 categories:
-- corporate 
+- nhs health intranets
 thumb: qvh-logo.png
 main-pic: qvh-photo.jpg
 summary: The Queen Victoria Hospital NHS Foundation Trust was a fragmented organisation without clear lines of communication. Now, they rely on the intranet for the efficient, clear sharing of information. And with the addition of Hadron Connect, it’s even helping them increase department visibility and connectivity...

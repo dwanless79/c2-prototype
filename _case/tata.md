@@ -3,7 +3,7 @@ layout: case
 title: Speed and delivery in a fully featured intranet
 image_path: ""
 categories:
-- analytics 
+- corporate intranet cloud
 - health
 thumb: tata-logo.png
 main-pic: tata-photo.jpg
