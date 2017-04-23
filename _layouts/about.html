@@ -28,7 +28,7 @@ layout: default
 <div class="profile grid__col grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-1">
 <div class="profile-summary-wrap">
 <div class="profile-summary"><div class="profile-summary-text">{{ profile.summary }}</div></div>
-<img class="profile-pic" alt="{{ profile.title }}" src="{% if profile.pic %}{{ profile.pic }}{% else %}http://placehold.it/400x400?text={{ profile.title }}{% endif %}">
+<img class="profile-pic" alt="{{ profile.title }}" src="{% if profile.pic %}{{ profile.pic }}{% else %}http://placehold.it/400x400?text=placeholder{% endif %}">
 </div>
 
 <h3>{{ profile.title }}</h3>
@@ -40,6 +40,7 @@ layout: default
 
 </section>
 
+<hr>
 
 <div class="post-content">
 
@@ -62,6 +63,8 @@ layout: default
 {% endfor %}
 </div><!--end grid -->
 
+<hr>
+
 <div id="values" class="accordion-wrap cf">
 <h2>Our values</h2>
 <div class="accordion">
@@ -75,7 +78,6 @@ layout: default
 {% endfor %}
 
 </div><!-- end ac wrap -->
-
 
 <div id="principles" class="accordion-wrap cf">
 <h2>Our Business principles</h2>
@@ -91,10 +93,5 @@ layout: default
 
 </div><!-- end ac wrap -->
 
-
-
-
 </div>
 </div>
-
-
