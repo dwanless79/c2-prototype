@@ -2,7 +2,7 @@
 layout: case
 title: One, unifying Business Intelligence solution for NEAS
 categories:
-- analytics 
+- analytics nhs health cloud
 image_path: ""
 thumb: neas-logo.png
 main-pic: neas-grab.png

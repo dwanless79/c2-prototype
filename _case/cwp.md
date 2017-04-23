@@ -2,7 +2,7 @@
 layout: case
 title: From dispersion to unity. Patient care and intranets - hand in hand
 categories:
-- health
+- health nhs intranets cloud
 image_path: ""
 thumb: cwp-logo.png
 main-pic: cwp-grab.png
