@@ -51,7 +51,7 @@ summary {
 h1, h2, h3, h4 {
   font-weight: normal;
   font-family: 'avant-demi';
-  max-width: 40em;
+  max-width: $line-length;
 }
 
 h1 {
@@ -80,19 +80,12 @@ a:hover {
 }
 }
 
-
-body.about h2 {
-  margin-top: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid #efefef;
-}
-
 h3 {font-size: 1.1rem;}
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  max-width: 50em;
+  max-width: $line-length;
 }
 
 .avant-book {
@@ -100,12 +93,6 @@ font-family: 'avant';
 strong {
   font-family: 'avant-demi';
 }
-}
-
-b,
-strong {
-  font-weight: normal;
-  color: $c2-midblue;
 }
 
 ul, ol, article {

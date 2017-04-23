@@ -3,17 +3,19 @@
 \*------------------------------------*/
 
 
-
 /*! jQuery UI - v1.10.3 - 2013-07-24
 * http://jqueryui.com
 * Includes: jquery.ui.core.css, jquery.ui.accordion.css
 * Copyright 2013 jQuery Foundation and other contributors Licensed MIT */
 
+
 /* Layout helpers
 ----------------------------------*/
+
 .ui-helper-hidden {
 	display: none;
 }
+
 .ui-helper-hidden-accessible {
 	border: 0;
 	clip: rect(0 0 0 0);
@@ -24,6 +26,7 @@
 	position: absolute;
 	width: 1px;
 }
+
 .ui-helper-reset {
 	margin: 0;
 	padding: 0;
@@ -34,18 +37,22 @@
 	font-size: 100%;
 	list-style: none;
 }
-.ui-helper-clearfix:before,
-.ui-helper-clearfix:after {
+
+.ui-helper-clearfix:before, .ui-helper-clearfix:after {
 	content: "";
 	display: table;
 	border-collapse: collapse;
 }
+
 .ui-helper-clearfix:after {
 	clear: both;
 }
+
 .ui-helper-clearfix {
-	min-height: 0; /* support: IE7 */
+	min-height: 0;
+	/* support: IE7 */
 }
+
 .ui-helper-zfix {
 	width: 100%;
 	height: 100%;
@@ -53,7 +60,7 @@
 	left: 0;
 	position: absolute;
 	opacity: 0;
-	filter:Alpha(Opacity=0);
+	filter: Alpha(Opacity=0);
 }
 
 .ui-front {
@@ -63,6 +70,7 @@
 
 /* Interaction Cues
 ----------------------------------*/
+
 .ui-state-disabled {
 	cursor: default !important;
 }
@@ -71,7 +79,9 @@
 /* Icons
 ----------------------------------*/
 
+
 /* states and images */
+
 .ui-icon {
 	display: block;
 	text-indent: -99999px;
@@ -87,28 +97,30 @@
 	border-top: 1px solid #919191 !important;
 }
 
-.accordion h2 {
+.accordion-wrap h2 {
+	margin-top: 2rem;
+	transition: all .5s ease;
+}
+
+hr+.accordion-wrap>h2 {
 	margin-top: 0;
-	transition:all .5s ease;
 }
 
 .accordion h3 {
-	max-width: 100%;
+	//max-width: 100%;
 	transition: color 0.2s ease;
-	}
+}
 
 .accordion h3:hover, .accordion h3.ui-state-active {
 	color: $c2-midblue;
-	}
-
-
+}
 
 .accordion div.accordion-content {
 	border-bottom: 1px solid #eee;
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;
+	max-width: $line-length;
 }
-
 
 .ui-accordion .ui-accordion-header {
 	display: block;
@@ -127,11 +139,12 @@
 	overflow: auto;
 }
 
-h2.ui-state-default {
-}
+h2.ui-state-default {}
+
 h2.ui-state-focus {
-color: #ccc;
+	color: #ccc;
 }
+
 .accordion h2:hover {
-color: #ccc;
+	color: #ccc;
 }
