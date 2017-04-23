@@ -9,6 +9,9 @@
 	color: $color-main-lighter;
 	margin-bottom: 1.5rem;
 	position: relative;
+	.button {
+		margin-top: 1.5rem;
+	}
 	h2 {
 		font-size: 1.5rem;
 		color: $c2-midblue;
@@ -56,13 +59,6 @@
 		margin-top: 1rem;
 	}
 }
-
-@media (min-width: $toast-breakpoint-medium) {
-	.card-case .content-wrap {
-		min-height: 24rem;
-	}
-}
-
 
 @media (min-width: $toast-breakpoint-medium) {
 	.home-cards {

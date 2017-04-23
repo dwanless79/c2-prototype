@@ -73,6 +73,14 @@ $(document).ready(function() {
 		});
 	});
 
+	//=========== [ Equal Heights on homepage cards ]
+
+	$(function() {
+		$('.js-card-height').matchHeight();
+	});
+
+
+
 	//=========== [ BxSlider ]
 	// with and without navigations
 	
