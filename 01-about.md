@@ -17,7 +17,7 @@ values:
   text: We make it easy for you to get going fast by making sure we get things right first time.
 - title: Transform your performance 
   text: We nurture innovation by thinking differently to move you forward in a way that revolutionises your performance. Through new ideas we create new ways of working, which inspire you to do better, solve issues faster and provide impactful solutions.  We transform the way you use information and data by making technology work.
-- title: Boost your Efficiency
+- title: Boost your efficiency
   text: We use and impart our skills, knowledge and experience to create success for all. We deliver meaningful results to help you make the right decisions and drive positive change more effectively and quickly. We’re nimble and professional experts who make things easier for you in everything we do.
 principles:
 - title: We are motivated to make a difference to our clients and our sector 
@@ -54,6 +54,8 @@ They knew that these projects failed because the solutions delivered weren't ado
 So hence was born our agile 80/20 methodology. The first solution accelerator delivered was our flagship intranet – Hadron. It came 80% pre-built (out-of-the-box) and 20% customisable.  And this 80/20 methodology still holds true to this day. 
 
 Taran and Simon don’t have technical backgrounds yet are passionate about delivering business solutions to our clients that improve outcomes and make a difference - fast. In fact, the fastest they've delivered a SharePoint project is six weeks.
+
+---
 
 ## We work with the best.
 
