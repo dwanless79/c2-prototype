@@ -7,10 +7,11 @@
 {% for solution in site.solution %}
   <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
   <div class="card card-home">
-  <h2><a title="{{ solution.title }} solutions from {{ site.title }}" href="{{ solution.url }}">{{ solution.title }}</a></h2>
-  <p class="card-intro">{{ solution.home-intro }}</p>
-  <img class="hide home-card-image cf" src="/{{ site.theme-path }}/solutions/{% if solution.home-image %}{{ solution.home-image }}{% else %}placeholder.svg{{ page.title }}{% endif %}" title="{{ solution.title }}">
-  <q class="card-quote" title="{{ solution.title }} testimonial">{{ solution.home-quote }}</q>
+    <div class="js-card-height">
+      <h2><a title="{{ solution.title }} solutions from {{ site.title }}" href="{{ solution.url }}">{{ solution.title }}</a></h2>
+      <p class="card-intro">{{ solution.home-intro }}</p>
+      <q class="card-quote" title="{{ solution.title }} testimonial">{{ solution.home-quote }}</q>
+    </div>
   <div class="button-container">
   <a class="button card-button centred" title="Learn more about {{ solution.title }} solutions from {{ site.title }}" href="{{ solution.url }}">Learn more</a>
   </div>
