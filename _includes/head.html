@@ -7,10 +7,7 @@
   <title>{% if page.title %}{{ page.title }} • {{site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}{% endif %}">
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.title }}{% endif %}">
-
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
 
   <script src="/js/jquery-1.10.2.js"></script>
   <script src="/js/jquery.bxslider.js"></script>
@@ -19,7 +16,7 @@
   <script src="/js/jquery.localScroll.js"></script>
   <script src="/js/cloud2.js"></script>
 
-{% if page.nav-class == "launch" or "contact" %}
+{% if page.nav-class == "event" or "contact" %}
 
 <script src="https://maps.googleapis.com/maps/api/js?key={{ site.map-api-key }}&callback=initMap"
     async defer></script>

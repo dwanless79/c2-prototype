@@ -12,7 +12,7 @@ coords: "lat: 51.5195997, lng: -0.1817608"
 booking-url: https://en.xing-events.com/AOP-HR.html
 summary: Ullamco laboris nisi ut aliquid ex ea commodi consequat. Cras mattis iudicium purus sit amet fermentum. Salutantibus vitae elit libero, a pharetra augue.Plans (CIP) and Sustainability and Transformation Plans (STPs).
 audience: Created for HR teams, directors and managers to highlight how they can use automated workflow processes to meet their appraisal and nurse re-validation targets. We've pre-built appraisal and nurse re-validation processes with real time, interactive reporting dashboards for a number of NHS trusts and automated HR processes so they can drive workforce efficiencies faster. 
-nav-class:
+nav-class: event
 permalink:
 
 ---
