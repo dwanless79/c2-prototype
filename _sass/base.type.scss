@@ -18,6 +18,21 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'adellesans';
+    src: url('/fonts/adellesans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'adellesans-italic';
+    src: url('/fonts/adellesans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 html {
   height: 100%;
   font-size: 17px;
@@ -213,15 +228,16 @@ figure {
   }
 }
 
-
 q {
   color: $color-text-lighter;
-  font-style: italic;
+  font-style: normal;
   font-size: 0.8rem;
+  font-family: 'adellesans-italic';
 }
 
 .page-content blockquote {
   margin-left: 0;
+  font-family: 'adellesans-italic';
   margin-bottom: 1.5rem;
  p {
   max-width: 40rem;
