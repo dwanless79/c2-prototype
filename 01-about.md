@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About us
-nav-title: About us
+nav-title: About
 description: Details about Cloud2
 keywords: cloud2, values, team
 hero-title: Get to know us.
