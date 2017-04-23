@@ -12,7 +12,7 @@ $c2-lightgreen:   #bedc8f; // Light green
 $c2-purple:       #8c3694; // Purple
 $c2-lightpurple:  #c389bc; // Light purple
 
-$type-body: 	'Roboto', sans-serif;
+$type-body: 	  SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
 $theme1: $c2-darkblue;
 $theme2: $c2-midblue;
@@ -40,8 +40,6 @@ $strip-link: $theme1;
 $dark-bg-link: $color-grey-light;
 $grey-text: $color-grey-light;
 
-// callouts
-
 // layout
 
 $max-width: 50rem;
@@ -49,13 +47,10 @@ $max-width-wide: 55rem;
 
 // widths
 
-
 $width-small: 520px;
 $width-medium: 800px;
 $width-large: 1024px;
-
-
-$width-giant: 1200px; // use only if needed...
+$width-giant: 1200px;
 
 // paths
 
