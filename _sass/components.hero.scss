@@ -44,7 +44,7 @@
 .home.hero {
 	h1 {
 		color: $c2-darkblue;
-		//font-size: 52px;
+		margin-top: 1rem;
 	}
 	.subtitle {
 		font-size: 1.5rem;
@@ -58,7 +58,6 @@
 	}
 	background-attachment: cover;
 	background-image: url(#{$themepath}/hero/home-rocket.jpg);
-
 }
 
 @media (max-width: $toast-breakpoint-medium) {
