@@ -22,7 +22,7 @@
 		<ul class="product-nav-ul">
 			{% assign items = site.solution | sort: 'date' %}
 			{% for solution in site.solution limit:10 %}
-			<li><a title="{{ solution.title }} details" href="{{ solution.url }}">{{ solution.title }}</a></li>
+			<li><a title="{{ solution.title }} • Solutions from {{ site.title }}" href="{{ solution.url }}">{{ solution.title }}</a></li>
 		{% endfor %}
 		</ul>
 	</nav>

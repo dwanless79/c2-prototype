@@ -13,7 +13,7 @@ home-image:
 summary: A new intranet in 8 weeks. (And one that people actually like using.)
 nav-class: solution
 nav-class: hadron
-permalink: /hadron/
+permalink:
 date: 2016-10-01 00:00:00 +0000
 
 ---

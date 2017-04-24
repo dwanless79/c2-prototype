@@ -74,6 +74,9 @@
 @media (min-width: $toast-breakpoint-medium) {
 	.hero.home {
 		min-height: 500px;
+		.button {
+		margin-bottom: 4rem;
+	}
 	}
 	.home-cards {
 		.card {
