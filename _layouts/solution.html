@@ -6,7 +6,7 @@ layout: default
 
 <div class="wrapper page-general">
 
-<article class="post">
+<article class="post page-general">
 
 <header class="solution-header">
 {% if page.product-logo %}
@@ -16,12 +16,15 @@ layout: default
 
 <div class="post-content">
 {% if page.summary %}<p class="article-summary">{{ page.summary }}</p>{% endif %}
-{{ content }}
+
 </div>
 
 </article>
 
 </div>
 
+{{ content }}
 
+<div class="wrapper page-general">
 {% include form-cta.html %}
+</div>
