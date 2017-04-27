@@ -8,17 +8,16 @@
   <meta name="author" content="@regmtait">
   <link rel=icon href="/theme-assets/roundel.svg" sizes="any" type="image/svg+xml">
   <title>About us • Cloud2</title>
-  <meta name="description" content="Prototype for Cloud2 website
-">
-  <meta name="keywords" content="about">
-
+  <meta name="description" content="Details about Cloud2">
+  <meta name="keywords" content="cloud2, values, team">
   <link rel="stylesheet" href="/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
 
   <script src="/js/jquery-1.10.2.js"></script>
   <script src="/js/jquery.bxslider.js"></script>
   <script src="/js/jquery-ui-1.10.3.custom.js"></script>
+  <script src="/js/jquery.scrollTo.js"></script>
+  <script src="/js/jquery.localScroll.js"></script>
+  <script src="/js/jquery.matchHeight.js"></script>
   <script src="/js/cloud2.js"></script>
 
 
@@ -54,38 +53,44 @@
 
 <body class="about">
 
-<header class="site-header cf">
+<header class="site-header">
 
 	<nav class="site-nav cf">
 	<div class="wrapper">
 
-	<ul>
-  		<li data-wenk="" class="about"><a title="About us" class="page-link" href="/about/">About us</a></li>
-  		<li data-wenk="Successful case studies" class="stories"><a title="Stories" class="page-link" href="/stories/">Stories</a></li>
-  		<li data-wenk="Events" class="events"><a title="Events" class="page-link" href="/events/">Events</a></li>
-  		<li data-wenk="" class="blog"><a title="News" class="page-link" href="/blog/">News</a></li>
-  		<li data-wenk="" class="contact"><a title="Contact" class="page-link" href="/contact/">Contact</a></li>
+		<ul class="quick-contact">
+		<li><a href="tel:+1274308378" title="Call Cloud2 on 01274 308378">01274 308378</a></li>
+		<li><a href="mailto:getmore@cloud2.co.uk" title="Email Cloud2">getmore@cloud2.co.uk</a></li>
 		</ul>
-	</div>
+
+		<ul class="main-nav">
+  		<li class="about"><a title="About us • Cloud2" class="page-link" href="/about/">About</a></li>
+  		<li class="stories"><a title="Stories • Cloud2" class="page-link" href="/stories/">Stories</a></li>
+  		<li class="events"><a title="Events • Cloud2" class="page-link" href="/events/">Events</a></li>
+  		<li class="blog"><a title="Blog • Cloud2" class="page-link" href="/blog/">Blog</a></li>
+  		<li class="contact"><a title="Contact • Cloud2" class="page-link" href="/contact/">Contact</a></li>
+		</ul>
+		</div><!-- end wrapper -->
 	</nav>
-	<div class="product-nav-wrap">
-	<div class="wrapper cf">
+
+	<div class="product-nav-wrap cf">
+	<div class="wrapper">
 	<nav class="product-nav">
 		<a class="logo" href="/" title="Cloud2 home page">
 		<img class="nav-logo" src="/theme-assets/cloud2-logo.svg" title="Cloud2 logo" /></a>
-		<ul>
-	
-	
-	<li><a title="Intranets details" href="/solutions/hadron/">Intranets</a></li>
-
-	<li><a title="Analytics details" href="/solutions/meson/">Analytics</a></li>
-
-	<li><a title="Cloud details" href="/solutions/cloud/">Cloud</a></li>
-
+		<ul class="product-nav-ul">
+			
+			
+			<li><a title="Intranets • Solutions from Cloud2" href="/solution/hadron/">Intranets</a></li>
+		
+			<li><a title="Analytics • Solutions from Cloud2" href="/solution/meson/">Analytics</a></li>
+		
+			<li><a title="Cloud • Solutions from Cloud2" href="/solution/cloud/">Cloud</a></li>
+		
 		</ul>
 	</nav>
-</div>
-</div>
+	</div>
+	</div>
 
 </header>
 
@@ -96,9 +101,10 @@
 <div class="wrapper">
 
 <div class="grid">
-<div class="grid__col grid__col--2-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
+<div class="grid__col grid__col--5-of-8 grid__col--m-6-of-8 grid__col--s-1-of-1">
 <h1 class="post-title">Get to know us.</h1>
 <p>We have a vision to be the leading enabler in digital transformation. And we do that by creating solutions for the digital workplace that our customers want, need and can efficiently use to make their working lives easier; so everyone can perform better and achieve more.</p>
+
 </div><!-- end grid cols -->
 
 </div><!-- end grid -->
@@ -111,16 +117,18 @@
 <p class="intro">We'll do that by streamlining our customers' information, data and processes into one end-to-end digital workspace which accelerates our customers decision making, helping them achieve their efficiency targets and boosting their productivity. We couple our deep understanding of our customers' markets and a passion for their success, we get them going in weeks not years.</p>
 
 <nav class="cf">
-<ul class="page-subnav">
-<li><a href="#team" title="Meet the team">Meet the team</a></li>
-<li><a href="#workplace" title="Our workplace">Workplace</a></li>
-<li><a href="#directors" title="Meet the directors">Directors</a></li>
-<li><a href="#partners" title="Partners">Partners</a></li>
+<ul class="page-subnav js-scroll-about">
+<li><a href="#team" title="Our core team">Our core team</a></li>
+<li><a href="#meet-the-directors" title="Meet the directors">Directors</a></li>
+<li><a href="#we-work-with-the-best" title="Partners">Partners</a></li>
 <li><a href="#values" title="Values">Values</a></li>
+<li><a href="#principles" title="Principles">Principles</a></li>
 </ul>
 </nav>
 
-<section class="profiles">
+<section class="profiles" id="team">
+
+<h2>Our core team</h2>
 
 
 <div class="grid">
@@ -128,17 +136,17 @@
 <div class="profile grid__col grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-1">
 <div class="profile-summary-wrap">
 <div class="profile-summary"><div class="profile-summary-text">Hi, I’m Adeel, and I help you solve any issues you may have with your solutions.</div></div>
-<img class="profile-pic" alt="Adeel" src="http://placehold.it/400x400?text=Adeel">
+<img class="profile-pic" alt="Adeel" src="http://placehold.it/400x400?text=placeholder">
 </div>
 
 <h3>Adeel</h3>
-<h4>My job Title</h4>
+<h4>Product Support</h4>
 </div><!-- end grid col -->
 
 <div class="profile grid__col grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-1">
 <div class="profile-summary-wrap">
 <div class="profile-summary"><div class="profile-summary-text">Hi, I’m Arzu, and I look after all things marketing (and I love developing the company strategy too).</div></div>
-<img class="profile-pic" alt="Arzu" src="http://placehold.it/400x400?text=Arzu">
+<img class="profile-pic" alt="Arzu" src="http://placehold.it/400x400?text=placeholder">
 </div>
 
 <h3>Arzu</h3>
@@ -148,17 +156,17 @@
 <div class="profile grid__col grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-1">
 <div class="profile-summary-wrap">
 <div class="profile-summary"><div class="profile-summary-text">Hi, I’m Christine and I look after the money, both coming in and going out.</div></div>
-<img class="profile-pic" alt="Christine" src="http://placehold.it/400x400?text=Christine">
+<img class="profile-pic" alt="Christine" src="http://placehold.it/400x400?text=placeholder">
 </div>
 
 <h3>Christine</h3>
-<h4>Accountant</h4>
+<h4>Finance Manager</h4>
 </div><!-- end grid col -->
 
 <div class="profile grid__col grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-1">
 <div class="profile-summary-wrap">
 <div class="profile-summary"><div class="profile-summary-text">Hi, I’m Dan and I'm a developer, here to help turn your ideas into functioning products.</div></div>
-<img class="profile-pic" alt="Dan" src="http://placehold.it/400x400?text=Dan">
+<img class="profile-pic" alt="Dan" src="http://placehold.it/400x400?text=placeholder">
 </div>
 
 <h3>Dan</h3>
@@ -168,7 +176,7 @@
 <div class="profile grid__col grid__col--1-of-4 grid__col--m-1-of-3 grid__col--s-1-of-1">
 <div class="profile-summary-wrap">
 <div class="profile-summary"><div class="profile-summary-text">Hey, I’m Graham, I look after the Hadron brand strategy and help run Operations.</div></div>
-<img class="profile-pic" alt="Graham" src="http://placehold.it/400x400?text=Graham">
+<img class="profile-pic" alt="Graham" src="http://placehold.it/400x400?text=placeholder">
 </div>
 
 <h3>Graham</h3>
@@ -180,6 +188,7 @@
 
 </section>
 
+<hr>
 
 <div class="post-content">
 
@@ -193,9 +202,11 @@
 
 <p>They knew that these projects failed because the solutions delivered weren’t adopted, but what experience also taught them was that although organisations may be different, their needs from e.g. an intranet (our first solution), were about 80% the same. The customers would then require some customisation to make it feel their own.</p>
 
-<p>So hence was born our agile 80/20 methodology. The first solution accelerator delivered was our flagship intranet – Hadron.  It came 80% pre-built (out-of-the-box) and 20% customisable.  And this 80/20 methodology still holds true to this day.</p>
+<p>So hence was born our agile 80/20 methodology. The first solution accelerator delivered was our flagship intranet – Hadron. It came 80% pre-built (out-of-the-box) and 20% customisable.  And this 80/20 methodology still holds true to this day.</p>
 
 <p>Taran and Simon don’t have technical backgrounds yet are passionate about delivering business solutions to our clients that improve outcomes and make a difference - fast. In fact, the fastest they’ve delivered a SharePoint project is six weeks.</p>
+
+<hr />
 
 <h2 id="we-work-with-the-best">We work with the best.</h2>
 
@@ -209,7 +220,7 @@
 </article>
 
 
-<div class="grid partners">
+<div class="grid partners" id="partners">
 
 <div class="partner grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
 <div class="logo-wrap">
@@ -243,68 +254,127 @@
 
 </div><!--end grid -->
 
+<hr>
 
-
-<div class="accordion-wrap cf">
+<div id="values" class="accordion-wrap cf">
+<h2>Our values</h2>
 <div class="accordion">
-<h2>Accordion title</h2>
-<div class="accordion-content">
-<p>Me non paenitet nullum festiviorem excogitasse ad hoc. Cras mattis iudicium purus sit amet fermentum. Integer legentibus erat a ante historiarum dapibus. Hi omnes lingua, institutis, legibus inter se differunt.</p>
-</div>
-<h2>Accordion title</h2>
-<div class="accordion-content">
-<p>Me non paenitet nullum festiviorem excogitasse ad hoc. Cras mattis iudicium purus sit amet fermentum. Integer legentibus erat a ante historiarum dapibus. Hi omnes lingua, institutis, legibus inter se differunt.</p>
-</div>
+
+
+
+	<h3>Making the difference</h3>
+	<div class="accordion-content">
+	<p>We’re a bunch of real people - genuine, friendly and easy to work with - who help promote change to ensure you are successful; we solve problems so you perform better and achieve more.  And, we don’t let projects fail.</p>
+	</div>
+
+	<h3>Accelerate your success</h3>
+	<div class="accordion-content">
+	<p>We make it easy for you to get going fast by making sure we get things right first time.</p>
+	</div>
+
+	<h3>Transform your performance</h3>
+	<div class="accordion-content">
+	<p>We nurture innovation by thinking differently to move you forward in a way that revolutionises your performance. Through new ideas we create new ways of working, which inspire you to do better, solve issues faster and provide impactful solutions.  We transform the way you use information and data by making technology work.</p>
+	</div>
+
+	<h3>Boost your efficiency</h3>
+	<div class="accordion-content">
+	<p>We use and impart our skills, knowledge and experience to create success for all. We deliver meaningful results to help you make the right decisions and drive positive change more effectively and quickly. We’re nimble and professional experts who make things easier for you in everything we do.</p>
+	</div>
+
+
+</div><!-- end ac wrap -->
+
+<div id="principles" class="accordion-wrap cf">
+<h2>Our Business principles</h2>
+<div class="accordion">
+
+
+
+	<h3>We are motivated to make a difference to our clients and our sector</h3>
+	<div class="accordion-content">
+	<p>We do it because we want them to succeed and believe in them. We don’t allow projects to fail.</p>
+	</div>
+
+	<h3>Integrity and honesty are at the heart of our business.</h3>
+	<div class="accordion-content">
+	<p>We will always be frank, honest and direct with staff, clients and partners, and ourselves; even if it means turning work away. We want to enable our clients to be self-supporting rather than reliant on us - and come back to us because we help them rather than lock them in.</p>
+	</div>
+
+	<h3>We believe in Pay It Forward</h3>
+	<div class="accordion-content">
+	<p>We will help people and organisations because we can and we trust it will benefit us in due course.</p>
+	</div>
+
+	<h3>We take great pride in the professional quality of our work.</h3>
+	<div class="accordion-content">
+	<p>We have an uncompromising determination to achieve excellence in everything we undertake. Though we may be involved in a wide variety and heavy volume of activity, we would, if it came to a choice, rather be best than biggest.</p>
+	</div>
+
+	<h3>We stress creativity and imagination in everything we do.</h3>
+	<div class="accordion-content">
+	<p>While recognizing that the old way may still be the best way, we constantly strive to find a better solution to a client's problems. We pride ourselves on having pioneered many new and effective practices and techniques.</p>
+	</div>
+
+	<h3>The dedication of our people to the company and the effort they give their jobs are greater than one finds in most other organisations.</h3>
+	<div class="accordion-content">
+	<p>We believe in what we do and think that this is an important part of our success. Individually, we own our problems and take responsibility for creating solutions. If we can fix it we will, seeking help where needed.</p>
+	</div>
+
+	<h3>We consider our size an asset that we try hard to preserve.</h3>
+	<div class="accordion-content">
+	<p>We want to be big enough to undertake the largest project that any of our clients could contemplate, yet small enough to maintain the loyalty, the intimacy and the agility we know is essential to doing what we do successfully.</p>
+	</div>
+
+	<h3>We constantly strive to anticipate the rapidly changing needs of our clients and to develop new services to meet those needs.</h3>
+	<div class="accordion-content">
+	<p>We know that our world will not stand still and that complacency can lead to extinction.</p>
+	</div>
+
+	<h3>We regularly receive confidential information as part of our normal client relationships.</h3>
+	<div class="accordion-content">
+	<p>To breach a confidence or to use confidential information improperly or carelessly would be unthinkable.</p>
+	</div>
+
 
 </div><!-- end ac wrap -->
 
 </div>
-
-
-
-
 </div>
-
-
-
 </div>
 
 <footer class="site-footer cf">
 <div class="wrapper">
 
 <div class="grid">
-<div class="grid__col grid__col--6-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="grid__col grid__col--6-of-8 grid__col--m-2-of-3 grid__col--s-1-of-1">
 
 
 <img class="c2-logo-footer" src="/theme-assets/footer/cloud2-logo-white.svg" alt="Cloud2 logo">
 
 <ul>
 <li>2nd Floor, The Wool Exchange, 10 Hustlergate, Bradford BD11RE</li>
-<li><a href="mailto:getmore@cloud2.co.uk" title="Email us">getmore@cloud2.co.uk</a> • 01274 308378</li>
+<li><a href="mailto:getmore@cloud2.co.uk" title="Email Cloud2 at getmore@cloud2.co.uk">getmore@cloud2.co.uk</a> • <a href="tel:+1274308378" title="Call Cloud2 on 01274 308378">01274 308378</a></li>
 </ul>
 
 <ul class="social-logo">
-<li><a title="Google Plus" href="https://plus.google.com/102289998183049121834"><img class="footer-logo" src="/theme-assets/footer/googleplus.svg" alt="Google Plus"></a></li>
-<li><a title="Twitter" href="https://twitter.com/Cloud2Ltd"><img class="footer-logo" src="/theme-assets/footer/twitter.svg" alt="Twitter"></a></li>
-<li><a title="Linkedin" href="https://www.linkedin.com/company/cloud2-ltd"><img class="footer-logo" src="/theme-assets/footer/linkedin.svg" alt="Linkedin"></a></li>
+<li><a target="blank" title="Google Plus" href="https://plus.google.com/102289998183049121834"><img class="footer-logo" src="/theme-assets/footer/googleplus.svg" alt="Google Plus"></a></li>
+<li><a target="blank" title="Twitter" href="https://twitter.com/Cloud2Ltd"><img class="footer-logo" src="/theme-assets/footer/twitter.svg" alt="Twitter"></a></li>
+<li><a target="blank" title="Linkedin" href="https://www.linkedin.com/company/cloud2-ltd"><img class="footer-logo" src="/theme-assets/footer/linkedin.svg" alt="Linkedin"></a></li>
 </ul>
 
 <ul class="footer-inline">
-<li>&copy; 2018 Cloud2 Ltd</li>
+<li>&copy; 2017 Cloud2 Ltd</li>
 <li>Reg 34567778</li>
 <li>VAT 36456456</li>
-<li><a href="/terms" title="Terms and Conditions">Terms &amp; Conditions</a></li>
-<li><a href="/privacy" title="Privacy Policy">Privacy Policy</a></li>
 
 </ul>
 
 </div>
 
-<div class="grid__col grid__col--2-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
-<img class="footer-ms" src="/theme-assets/footer/ms-partner.png" alt="Microsoft Partner">
+<div class="grid__col grid__col--2-of-8 grid__col--m-1-of-3 grid__col--s-1-of-1">
+<img class="footer-ms ms-partner" src="/theme-assets/footer/ms-partner.png" alt="Microsoft Partner">
 <img class="footer-ms" src="/theme-assets/footer/ms-finalist.png" alt="Microsoft Finalist">
-
-
 </div>
 </div><!-- end grid -->
 

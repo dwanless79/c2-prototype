@@ -18,6 +18,32 @@ date: 2016-10-01 00:00:00 +0000
 
 ---
 
+
+<div class="grid wrapper">
+<div class="profile grid__col grid__col--1-of-2 grid__col--m-1-of-1">
+
+<div class="card">
+{% markdown %}
+As you might be aware, over half of all SharePoint projects fail. So is shouting about an intranet that can be up and running in 8 weeks – and tick every box you need it to – a terrible idea?
+
+We don’t think so. Because Hadron is built on SharePoint, so it’s technically a minimal-configuration, low-cost, out-of-the-box intranet.
+
+But it’s customised for your organisation. You let us know what you need; we turn the dials.
+
+So you ensure your colleagues can find the people and documents they need to do their jobs properly, with a design and navigation that’s clean and simple.
+
+And, because we support you with your strategy, implementation and adoption, your staff get an intranet that does everything they need it to. Even when you’re unsure of exactly what that might be.
+{% endmarkdown %}
+</div><!--end summary card-->
+
+</div>
+
+<div class="profile grid__col grid__col--1-of-2 grid__col--m-1-of-1">
+
+</div>
+</div><!--end grid -->
+
+{% markdown %}
 * Hadron is built on SharePoint - requiring minimal configuration
 * It’s customised to meet your specific requirements
 * A bespoke interface fits with your brand
@@ -29,15 +55,10 @@ date: 2016-10-01 00:00:00 +0000
 * You get strategy, implementation and adoption support
 * Everything is realisable 8 weeks from today
 
-As you might be aware, over half of all SharePoint projects fail. So is shouting about an intranet that can be up and running in 8 weeks – and tick every box you need it to – a terrible idea?
+{% endmarkdown %}
 
-We don’t think so. Because Hadron is built on SharePoint, so it’s technically a minimal-configuration, low-cost, out-of-the-box intranet.
 
-But it’s customised for your organisation. You let us know what you need; we turn the dials.
 
-So you ensure your colleagues can find the people and documents they need to do their jobs properly, with a design and navigation that’s clean and simple.
-
-And, because we support you with your strategy, implementation and adoption, your staff get an intranet that does everything they need it to. Even when you’re unsure of exactly what that might be.
 
 ## Hadron is now used by 25% of NHS Trusts (and that’s increasing!).
 

@@ -17,20 +17,21 @@
 }());
 $(document).ready(function() {
 
-	//=========== [ LocalScroll ]
+		//=========== [ LocalScroll ]
 	// Scroll to top actions
 	$(function() {
-		$("#top").localScroll({
+		$(".js-scroll").localScroll({ /* targets the links INSIDE controls*/
 			duration: 500
 		});
-		$("#wrapper").localScroll({
+
+		$(".js-scroll-about").localScroll({
 			duration: 500,
 			offset: {
-				top: 90
+				top: 20
 			}
 		});
-	});
 
+	});
 
 	//=========== [ Card toggles ]
 	$('.js-cat-link').click(function(event) {
@@ -41,16 +42,24 @@ $(document).ready(function() {
 		$('.grid__col.'+ catclass).fadeIn(500);
 	$('ul.categories li a').removeClass('current');
 	$('ul.categories li a.'+ catclass).addClass('current');
-
 	});
-
-
 
 	$('.js-show-all').click(function(event) {
 		event.preventDefault();
 		$('ul.categories li a').removeClass('current');
 		$('.js-card-fade').hide();
 		$('.js-card-fade').fadeIn(500);
+	});
+
+	//=========== [ Workspaces ]
+	$('.js-workspace-card-link').click(function(event) {
+		//event.preventDefault();
+		var workspace = $(this).data('workspace');
+		$('.js-workspace-fade').hide();
+		//alert(workspace);
+		$('.js-workspace-fade.'+ workspace).fadeIn(500);
+		$('.js-workspace-card-link').removeClass('current');
+		$('.js-workspace-card-link.'+ workspace).addClass('current');
 	});
 
 	//=========== [ Accordion, uses JQuery UI ]
@@ -60,9 +69,17 @@ $(document).ready(function() {
 			active: false,
 			icons: false,
 			collapsible: true,
-			animate: 700
+			animate: 500
 		});
 	});
+
+	//=========== [ Equal Heights on homepage cards ]
+
+	$(function() {
+		$('.js-card-height').matchHeight();
+	});
+
+
 
 	//=========== [ BxSlider ]
 	// with and without navigations

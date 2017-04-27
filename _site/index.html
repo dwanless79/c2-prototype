@@ -11,14 +11,14 @@
   <meta name="description" content="Prototype for Cloud2 website
 ">
   <meta name="keywords" content="Cloud2">
-
   <link rel="stylesheet" href="/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
 
   <script src="/js/jquery-1.10.2.js"></script>
   <script src="/js/jquery.bxslider.js"></script>
   <script src="/js/jquery-ui-1.10.3.custom.js"></script>
+  <script src="/js/jquery.scrollTo.js"></script>
+  <script src="/js/jquery.localScroll.js"></script>
+  <script src="/js/jquery.matchHeight.js"></script>
   <script src="/js/cloud2.js"></script>
 
 
@@ -54,38 +54,44 @@
 
 <body class="home">
 
-<header class="site-header cf">
+<header class="site-header">
 
 	<nav class="site-nav cf">
 	<div class="wrapper">
 
-	<ul>
-  		<li data-wenk="" class="about"><a title="About us" class="page-link" href="/about/">About us</a></li>
-  		<li data-wenk="Successful case studies" class="stories"><a title="Stories" class="page-link" href="/stories/">Stories</a></li>
-  		<li data-wenk="Events" class="events"><a title="Events" class="page-link" href="/events/">Events</a></li>
-  		<li data-wenk="" class="blog"><a title="Blog" class="page-link" href="/blog/">Blog</a></li>
-  		<li data-wenk="" class="contact"><a title="Contact" class="page-link" href="/contact/">Contact</a></li>
+		<ul class="quick-contact">
+		<li><a href="tel:+1274308378" title="Call Cloud2 on 01274 308378">01274 308378</a></li>
+		<li><a href="mailto:getmore@cloud2.co.uk" title="Email Cloud2">getmore@cloud2.co.uk</a></li>
 		</ul>
-	</div>
+
+		<ul class="main-nav">
+  		<li class="about"><a title="About us • Cloud2" class="page-link" href="/about/">About</a></li>
+  		<li class="stories"><a title="Stories • Cloud2" class="page-link" href="/stories/">Stories</a></li>
+  		<li class="events"><a title="Events • Cloud2" class="page-link" href="/events/">Events</a></li>
+  		<li class="blog"><a title="Blog • Cloud2" class="page-link" href="/blog/">Blog</a></li>
+  		<li class="contact"><a title="Contact • Cloud2" class="page-link" href="/contact/">Contact</a></li>
+		</ul>
+		</div><!-- end wrapper -->
 	</nav>
-	<div class="product-nav-wrap">
-	<div class="wrapper cf">
+
+	<div class="product-nav-wrap cf">
+	<div class="wrapper">
 	<nav class="product-nav">
 		<a class="logo" href="/" title="Cloud2 home page">
 		<img class="nav-logo" src="/theme-assets/cloud2-logo.svg" title="Cloud2 logo" /></a>
-		<ul>
-	
-	
-	<li><a title="Intranets details" href="/solutions/hadron/">Intranets</a></li>
-
-	<li><a title="Analytics details" href="/solutions/meson/">Analytics</a></li>
-
-	<li><a title="Cloud details" href="/solutions/cloud/">Cloud</a></li>
-
+		<ul class="product-nav-ul">
+			
+			
+			<li><a title="Intranets • Solutions from Cloud2" href="/solution/hadron/">Intranets</a></li>
+		
+			<li><a title="Analytics • Solutions from Cloud2" href="/solution/meson/">Analytics</a></li>
+		
+			<li><a title="Cloud • Solutions from Cloud2" href="/solution/cloud/">Cloud</a></li>
+		
 		</ul>
 	</nav>
-</div>
-</div>
+	</div>
+	</div>
 
 </header>
 
@@ -96,9 +102,10 @@
 <div class="wrapper">
 
 <div class="grid">
-<div class="grid__col grid__col--2-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
+<div class="grid__col grid__col--5-of-8 grid__col--m-6-of-8 grid__col--s-1-of-1">
 <h1 class="post-title">Without change,<br>progress is impossible.</h1>
-<p>That sounds a bit dramatic, doesn’t it? <br>But is standing still ever really the best way to advance?</p><p><em>We’re not so sure—which is why our digital solutions are all designed to help you change the way things are.</em></p>
+<p><em>That sounds a bit dramatic, doesn’t it? <br>But is standing still ever really the best way to advance?</em></p><p>We’re not so sure—which is why our digital solutions are all designed to help you change the way things are.</p>
+<a href="/digital-transformation/" title="About Digital Transformation from Cloud2" class="button hero-button">About Digital Transformation &rarr;</a>
 </div><!-- end grid cols -->
 
 </div><!-- end grid -->
@@ -114,12 +121,13 @@
 
   <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
   <div class="card card-home">
-  <h2><a title="Intranets details" href="/solutions/hadron/">Intranets</a></h2>
-  <p class="card-intro">When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication.</p>
-  <img class="hide home-card-image cf" src="/theme-assets/solutions/placeholder.svg" title="Intranets">
-  <q class="card-quote" title="Intranets testimonial">In the end it took just eight weeks from deployment to launch – I couldn't believe how quick the turnaround was. Before Hadron, just 10% of people were ‘completely satisfied’ with our intranet. A year on, we’re at 96%. We have a clear communication structure and the intranet has become part of the language and culture of the Trust.</q>
+    <div class="js-card-height">
+      <h2><a title="Intranets solutions from Cloud2" href="/solution/hadron/">Intranets</a></h2>
+      <p class="card-intro">When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication.</p>
+      <q class="card-quote" title="Intranets testimonial">In the end it took just eight weeks from deployment to launch – I couldn't believe how quick the turnaround was. Before Hadron, just 10% of people were ‘completely satisfied’ with our intranet. A year on, we’re at 96%. We have a clear communication structure and the intranet has become part of the language and culture of the Trust.</q>
+    </div>
   <div class="button-container">
-  <a class="button card-button centred" title="Intranets details" href="/solutions/hadron/">Learn more</a>
+  <a class="button card-button centred" title="Learn more about Intranets solutions from Cloud2" href="/solution/hadron/">Learn more</a>
   </div>
   </div>
   </div>
@@ -127,12 +135,13 @@
   
   <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
   <div class="card card-home">
-  <h2><a title="Analytics details" href="/solutions/meson/">Analytics</a></h2>
-  <p class="card-intro">When different people need access to different reports and data, Power BI serves them with one complete version of the truth.</p>
-  <img class="hide home-card-image cf" src="/theme-assets/solutions/placeholder.svg" title="Analytics">
-  <q class="card-quote" title="Analytics testimonial">Meson takes away the need for very basic reports. The finance guys can now get their reports in two minutes rather than in two days, allowing my team to focus on more complex analytics, such as predictive analytics, rather than telling the organisation what it's just done.</q>
+    <div class="js-card-height">
+      <h2><a title="Analytics solutions from Cloud2" href="/solution/meson/">Analytics</a></h2>
+      <p class="card-intro">When different people need access to different reports and data, Power BI serves them with one complete version of the truth.</p>
+      <q class="card-quote" title="Analytics testimonial">Meson takes away the need for very basic reports. The finance guys can now get their reports in two minutes rather than in two days, allowing my team to focus on more complex analytics, such as predictive analytics, rather than telling the organisation what it's just done.</q>
+    </div>
   <div class="button-container">
-  <a class="button card-button centred" title="Analytics details" href="/solutions/meson/">Learn more</a>
+  <a class="button card-button centred" title="Learn more about Analytics solutions from Cloud2" href="/solution/meson/">Learn more</a>
   </div>
   </div>
   </div>
@@ -140,12 +149,13 @@
   
   <div class="grid__col grid__col--1-of-3 grid__col--m-1-of-1 grid__col--s-1-of-1">
   <div class="card card-home">
-  <h2><a title="Cloud details" href="/solutions/cloud/">Cloud</a></h2>
-  <p class="card-intro">When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication.</p>
-  <img class="hide home-card-image cf" src="/theme-assets/solutions/placeholder.svg" title="Cloud">
-  <q class="card-quote" title="Cloud testimonial">In the end it took just eight weeks from deployment to launch – I couldn't believe how quick the turnaround was. Before Hadron, just 10% of people were ‘completely satisfied’ with our intranet. A year on, we’re at 96%. We have a clear communication structure and the intranet has become part of the language and culture of the Trust.</q>
+    <div class="js-card-height">
+      <h2><a title="Cloud solutions from Cloud2" href="/solution/cloud/">Cloud</a></h2>
+      <p class="card-intro">When moving to the Cloud seems prosperous but daunting, we ensure you reap headache-free rewards.</p>
+      <q class="card-quote" title="Cloud testimonial">Moving our SQL Servers into Azure is actually an exciting prospect now.  We’re expecting to save £11.3m over the next three years.  What's even more exciting is that the investment we'll be making into Office 365 will not only give our staff the freedom to work from wherever they are but the financial investment will be recovered in two months!</q>
+    </div>
   <div class="button-container">
-  <a class="button card-button centred" title="Cloud details" href="/solutions/cloud/">Learn more</a>
+  <a class="button card-button centred" title="Learn more about Cloud solutions from Cloud2" href="/solution/cloud/">Learn more</a>
   </div>
   </div>
   </div>
@@ -160,11 +170,9 @@
 <section class="cta">
 <div class="wrapper">
 
-
-<h2 id="would-you-prefer-to-talk-to-a-human">Would you prefer to talk to a human?</h2>
+<h2>Would you prefer to talk to a human?</h2>
 
 <p>No matter what we say here, you’re probably going to have specific questions you need answered. Send them our way and we’ll make sure you have all the information you need. Just fill in the form below and we’ll get back to you. If it’s of use, we can arrange a convenient time to demonstrate our solutions. And as you’d expect, there’s no obligation or pressure whatsoever.</p>
-
 
  <form class="c2-form form-light">
 <fieldset>
@@ -179,10 +187,10 @@
 </div><!-- end grid col -->
 
 <div class="grid__col grid__col--3-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
-    <label class="label" for="email-address">Telephone</label>
-    <input class="input-field" type="tel" name="tel" id="tel" required>
-    <label class="label " for="website">Website</label>
-    <input class="input-field" type="website" name="website" id="website">
+    <label class="label" for="Job">Job title</label>
+    <input class="input-field" type="text" name="job" id="job" required>
+    <label class="label " for="organisation">Organisation</label>
+    <input class="input-field" type="organisation" name="organisation" id="worganisationebsite">
 </div><!-- end grid col -->
 
 </div><!--end grid -->
@@ -194,6 +202,179 @@
 
 </form>
 
+</div>
+</section>
+
+<section class="home-workspaces">
+<div class="wrapper">
+
+<h2>Digital workspaces</h2>
+
+<p class="intro">‘Digital workspaces’ are simply digital tools that help your staff do their jobs better. Here are a few of the workspaces we offer.</p>
+
+<div class="grid workspace-list" id="workspace-list">
+
+
+<!-- [ Intranet list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link intranet" href="#workspace-list" title="Intranet • A Digital Workspace from Cloud2" data-workspace="intranet">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="Intranet" src="/images/workspaces/intranets.svg"></span>
+	<h3 class="workspace-card-heading">Intranet</h3>
+</a>
+</div>
+</div>
+
+<!-- [ Analytics list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link analytics" href="#workspace-list" title="Analytics • A Digital Workspace from Cloud2" data-workspace="analytics">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="Analytics" src="/images/workspaces/analytics.svg"></span>
+	<h3 class="workspace-card-heading">Analytics</h3>
+</a>
+</div>
+</div>
+
+<!-- [ People list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link people" href="#workspace-list" title="People • A Digital Workspace from Cloud2" data-workspace="people">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="People" src="/images/workspaces/people.svg"></span>
+	<h3 class="workspace-card-heading">People</h3>
+</a>
+</div>
+</div>
+
+<!-- [ Business processes list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link business-processes" href="#workspace-list" title="Business processes • A Digital Workspace from Cloud2" data-workspace="business-processes">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="Business processes" src="/images/workspaces/business-processes.svg"></span>
+	<h3 class="workspace-card-heading">Business processes</h3>
+</a>
+</div>
+</div>
+
+<!-- [ Predictive analytics list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link predictive-analytics" href="#workspace-list" title="Predictive analytics • A Digital Workspace from Cloud2" data-workspace="predictive-analytics">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="Predictive analytics" src="/images/workspaces/predictive-analytics.svg"></span>
+	<h3 class="workspace-card-heading">Predictive analytics</h3>
+</a>
+</div>
+</div>
+
+<!-- [ Document management list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link documents" href="#workspace-list" title="Document management • A Digital Workspace from Cloud2" data-workspace="documents">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="Document management" src="/images/workspaces/documents.svg"></span>
+	<h3 class="workspace-card-heading">Document management</h3>
+</a>
+</div>
+</div>
+
+<!-- [ Applications list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link applications" href="#workspace-list" title="Applications • A Digital Workspace from Cloud2" data-workspace="applications">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="Applications" src="/images/workspaces/applications.svg"></span>
+	<h3 class="workspace-card-heading">Applications</h3>
+</a>
+</div>
+</div>
+
+<!-- [ Project Management Office list item ] -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="workspace-card js-scroll">
+<a class="cf js-workspace-card-link workspace-card-link pmo" href="#workspace-list" title="Project Management Office • A Digital Workspace from Cloud2" data-workspace="pmo">
+	<span class="workspace-image-wrap"><img class="workspace-image" alt="Project Management Office" src="/images/workspaces/pmo.svg"></span>
+	<h3 class="workspace-card-heading">Project Management Office</h3>
+</a>
+</div>
+</div>
+
+</div><!-- end grid -->
+
+
+
+
+<!-- [ Intranet description ] -->
+
+<div class="workspace-details hide js-workspace-fade intranet" data-workspace="intranet">
+	<h3>Intranet</h3>
+	<p>Hadron is a minimal-configuration intranet built on SharePoint, yet customised for your needs. It’s easy to navigate and makes finding documents and people simple – so it ticks every box you need it to without costing the earth.</p>
+	<img class="" alt="Intranet" src="/images/workspaces/intranets.svg">
+</div>
+
+<!-- [ Analytics description ] -->
+
+<div class="workspace-details hide js-workspace-fade analytics" data-workspace="analytics">
+	<h3>Analytics</h3>
+	<p>Power BI makes data visual, intuitive and self-serve, so your colleagues all have access to the timely, relevant statistics. Staff can regulate and improve their own departmental performance, freeing business intelligence teams up to drive organisational progress.</p>
+	<img class="" alt="Analytics" src="/images/workspaces/analytics.svg">
+</div>
+
+<!-- [ People description ] -->
+
+<div class="workspace-details hide js-workspace-fade people" data-workspace="people">
+	<h3>People</h3>
+	<p>Connect is an advanced database housing staff contact details. But Connect also stores information on teams and premises, too. It spreads local knowledge organisation-wide – which is why we refer to it as an employee engagement hub.</p>
+	<img class="" alt="People" src="/images/workspaces/people.svg">
+</div>
+
+<!-- [ Business processes description ] -->
+
+<div class="workspace-details hide js-workspace-fade business-processes" data-workspace="business-processes">
+	<h3>Business processes</h3>
+	<p>Interactive, electronic business processes guide staff through uniform procedures. They minimise any human error associated with paper-based procedures and save organisations money compared to paper-based equivalents.</p>
+	<img class="" alt="Business processes" src="/images/workspaces/business-processes.svg">
+</div>
+
+<!-- [ Predictive analytics description ] -->
+
+<div class="workspace-details hide js-workspace-fade predictive-analytics" data-workspace="predictive-analytics">
+	<h3>Predictive analytics</h3>
+	<p>Predictive analytics use historical data to predict – with surprising accuracy – what things might look like as the future unfolds. They guide organisations when making big decisions.</p>
+	<img class="" alt="Predictive analytics" src="/images/workspaces/predictive-analytics.svg">
+</div>
+
+<!-- [ Document management description ] -->
+
+<div class="workspace-details hide js-workspace-fade documents" data-workspace="documents">
+	<h3>Document management</h3>
+	<p>Document management ensures information is easily accessible, properly managed and governed. Reduce your reliance on paper and increase your organisation’s efficiency.</p>
+	<img class="" alt="Document management" src="/images/workspaces/documents.svg">
+</div>
+
+<!-- [ Applications description ] -->
+
+<div class="workspace-details hide js-workspace-fade applications" data-workspace="applications">
+	<h3>Applications</h3>
+	<p>Applications help staff get more done, fast. Apps like electronic staff records or expenses can be built into Hadron. Or you can design bespoke applications that live in Microsoft’s Cloud.</p>
+	<img class="" alt="Applications" src="/images/workspaces/applications.svg">
+</div>
+
+<!-- [ Project Management Office description ] -->
+
+<div class="workspace-details hide js-workspace-fade pmo" data-workspace="pmo">
+	<h3>Project Management Office</h3>
+	<p>Project Management Office helps people manage big projects from a single, digital workspace. Staff get project templates, assigned tasks, notifications and red flags, all of which help them get more done.</p>
+	<img class="" alt="Project Management Office" src="/images/workspaces/pmo.svg">
+</div>
+
+
+
+</div><!-- end wrapper -->
 </section>
 
 <section class="home-event">
@@ -209,7 +390,7 @@
 	<span class="year">2017</span>
 </div>
 
-<h2 class="event-heading">Next event: <a title="The art of the possible - The NHS HR and APPRAISALS perspective at London, UK on Feb 21" href="/events/art-possible-hr/" href="/events/art-possible-hr/">The art of the possible - The NHS HR and APPRAISALS perspective</a></h2>
+<h2 class="event-heading">Next event: <a title="The art of the possible - The NHS HR and APPRAISALS perspective at London, UK on Feb 21" href="/events/art-possible-hr/">The art of the possible - The NHS HR and APPRAISALS perspective</a></h2>
 <h3 class="event-subheading">London, UK</h3>
 
 <p>A FREE NHS workshops over to help you with your digital transformation, Cost Improvement Plans (CIP) and Sustainability and Transformation Plans (STPs).</p>
@@ -236,57 +417,56 @@
 
 <div class="grid">
 
-<div class="grid__col grid__col--1-of-2 grid__col--m-1-of-2 grid__col--s-1-of-1">
-<h3 class="news-heading"><a class="post-link" href="/2016/11/02/blog.html" title="Another cool post">Another cool post</a></h3>
-<p class="news-meta">Nov 2, 2016 by Arzu Kanval</p>
-<p>Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Etiam habebis sem dicantur magna mollis euismod.</p>
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1 js-card-height">
+<h3 class="news-heading"><a class="post-link" href="/2017/03/06/blog.html" title="Quisque placerat facilisis egestas cillum dolore.">Quisque placerat facilisis egestas cillum dolore.</a></h3>
+<p class="news-meta">Mar 6, 2017 by Simon Hudson</p>
+<p>Integer legentibus erat a ante historiarum dapibus. Sed haec quis possit intrepidus aestimare tellus. Quae vero auctorem tractata ab fiducia dicuntur.</p>
 </div><!--end grid col -->
 
-<div class="grid__col grid__col--1-of-2 grid__col--m-1-of-2 grid__col--s-1-of-1">
-<h3 class="news-heading"><a class="post-link" href="/2016/05/14/blog.html" title="My title">My title</a></h3>
-<p class="news-meta">May 14, 2016 by Simon Hudson</p>
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1 js-card-height">
+<h3 class="news-heading"><a class="post-link" href="/2017/03/05/blog.html" title="Ut enim ad minim veniam quis nostrud exercitation.">Ut enim ad minim veniam quis nostrud exercitation.</a></h3>
+<p class="news-meta">Mar 5, 2017 by Simon Hudson</p>
+<p>Quam diu etiam furor iste tuus nos eludet? Hi omnes lingua, institutis, legibus inter se differunt. Fabio vel iudice vincam, sunt in culpa qui officia.</p>
+</div><!--end grid col -->
+
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1 js-card-height">
+<h3 class="news-heading"><a class="post-link" href="/2017/03/04/blog.html" title="Curabitur blandit tempus ardua ridiculus sed magna. Morbi fringilla convallis sapien?">Curabitur blandit tempus ardua ridiculus sed magna. Morbi fringilla convallis sapien?</a></h3>
+<p class="news-meta">Mar 4, 2017 by Simon Hudson</p>
 <p>Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae.</p>
 </div><!--end grid col -->
 
 </div>
 
-<div id="tweetWrap" class="tweetwrap js-tweets">
-</div>
+<div id="tweetWrap" class="tweetwrap js-tweets"></div>
 <script type="text/javascript" src="/js/mytweets.js"></script>
-
-</div><!-- end tweetwrap -->
 
 </div><!--end wrapper -->
 
-
 </section>
-
-
-
 </div>
 
 <footer class="site-footer cf">
 <div class="wrapper">
 
 <div class="grid">
-<div class="grid__col grid__col--6-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="grid__col grid__col--6-of-8 grid__col--m-2-of-3 grid__col--s-1-of-1">
 
 
 <img class="c2-logo-footer" src="/theme-assets/footer/cloud2-logo-white.svg" alt="Cloud2 logo">
 
 <ul>
 <li>2nd Floor, The Wool Exchange, 10 Hustlergate, Bradford BD11RE</li>
-<li><a href="mailto:getmore@cloud2.co.uk" title="Email us">getmore@cloud2.co.uk</a> • 01274 308378</li>
+<li><a href="mailto:getmore@cloud2.co.uk" title="Email Cloud2 at getmore@cloud2.co.uk">getmore@cloud2.co.uk</a> • <a href="tel:+1274308378" title="Call Cloud2 on 01274 308378">01274 308378</a></li>
 </ul>
 
 <ul class="social-logo">
-<li><a title="Google Plus" href="https://plus.google.com/102289998183049121834"><img class="footer-logo" src="/theme-assets/footer/googleplus.svg" alt="Google Plus"></a></li>
-<li><a title="Twitter" href="https://twitter.com/Cloud2Ltd"><img class="footer-logo" src="/theme-assets/footer/twitter.svg" alt="Twitter"></a></li>
-<li><a title="Linkedin" href="https://www.linkedin.com/company/cloud2-ltd"><img class="footer-logo" src="/theme-assets/footer/linkedin.svg" alt="Linkedin"></a></li>
+<li><a target="blank" title="Google Plus" href="https://plus.google.com/102289998183049121834"><img class="footer-logo" src="/theme-assets/footer/googleplus.svg" alt="Google Plus"></a></li>
+<li><a target="blank" title="Twitter" href="https://twitter.com/Cloud2Ltd"><img class="footer-logo" src="/theme-assets/footer/twitter.svg" alt="Twitter"></a></li>
+<li><a target="blank" title="Linkedin" href="https://www.linkedin.com/company/cloud2-ltd"><img class="footer-logo" src="/theme-assets/footer/linkedin.svg" alt="Linkedin"></a></li>
 </ul>
 
 <ul class="footer-inline">
-<li>&copy; 2018 Cloud2 Ltd</li>
+<li>&copy; 2017 Cloud2 Ltd</li>
 <li>Reg 34567778</li>
 <li>VAT 36456456</li>
 
@@ -294,7 +474,7 @@
 
 </div>
 
-<div class="grid__col grid__col--2-of-8 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="grid__col grid__col--2-of-8 grid__col--m-1-of-3 grid__col--s-1-of-1">
 <img class="footer-ms ms-partner" src="/theme-assets/footer/ms-partner.png" alt="Microsoft Partner">
 <img class="footer-ms" src="/theme-assets/footer/ms-finalist.png" alt="Microsoft Finalist">
 </div>
