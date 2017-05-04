@@ -4,8 +4,8 @@ title: About us
 nav-title: About
 description: Details about Cloud2
 keywords: cloud2, values, team
-hero-title: Get to know us.
-hero-text: We have a vision to be the leading enabler in digital transformation. And we do that by creating solutions for the digital workplace that our customers want, need and can efficiently use to make their working lives easier; so everyone can perform better and achieve more.
+hero-title: What is it that makes Cloud2 different?
+hero-text: Yes, we offer digital solutions and yes, we’re a Microsoft partner. But where Cloud2 really add value is through our unique <a href="/strategy/" title="strategy, implementation, adoption">strategy, implementation, adoption</a> approach.
 intro: We'll do that by streamlining our customers' information, data and processes into one end-to-end digital workspace which accelerates our customers decision making, helping them achieve their efficiency targets and boosting their productivity. We couple our deep understanding of our customers' markets and a passion for their success, we get them going in weeks not years.
 exclude_from_nav:
 nav-class: about
@@ -41,6 +41,15 @@ principles:
 
 ---
 
+Admittedly, it’s a mouthful. But all it really means is we work with you to ensure the digital solutions (or, as we call them, digital workspaces) you roll out are 
+
+* thought through
+* introduced smoothly
+* adopted by staff
+* and deliver a substantial ROI
+
+We have a vision to be the leading enabler in digital transformation. And, by supporting you through every step of the digital transformation process, we’re confident we’ll achieve our goal.
+
 ## Meet the directors.
 
 ![temp](/images/cool-dudes.png "Taran and Simon")
@@ -57,8 +66,8 @@ Taran and Simon don’t have technical backgrounds yet are passionate about deli
 
 ---
 
-## We work with the best.
+## Who we work with
 
-### We work with amazing partners to deliver the best in class digital transformation accelerator solutions to our customers.
-
-Our partners are an extension of us and are leaders in their fields. These qualities ensure that we give our customers what they want, on time and on budget.
+### Our partners are all leaders in their fields. We draw on their quality and expertise to ensure you get just what you need, on time and on budget. 
+ 
+Current Cloud2 partners include:
