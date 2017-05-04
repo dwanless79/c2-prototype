@@ -4,44 +4,49 @@ title: Intranets
 image_path: ""
 hero-image:
 hero-title: Intranets
-hero-text: When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication. 
+pdf: temp.pdf
+hero-text: When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids collaboration. 
 product-logo: hadron-logo.png
+product-laptop: hadron-surface.png
 home-quote: In the end it took just eight weeks from deployment to launch – I couldn't believe how quick the turnaround was. Before Hadron, just 10% of people were ‘completely satisfied’ with our intranet. A year on, we’re at 96%. We have a clear communication structure and the intranet has become part of the language and culture of the Trust.
 home-intro: When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids communication.
-cta-text: There’s a lot take in there – and we’ve barely scratched the surface. To get answers to your specific questions, just enter your details below. We’ll arrange a convenient time to show you what the above digital workspaces can do for you, offering free advice and ideas.
+cta-text: Your organisation is unique. To see if Hadron meets your specific requirements (and to see it in action) request a free demonstration now. We’ll arrange a convenient time to show you how it works and what it looks like. (We actually quite enjoy talking about intranets and technology.)
 home-image:
-summary: A new intranet in 8 weeks. (And one that people actually like using.)
+summary: In 8 weeks’ time, you could have an intranet people actually enjoy using
 nav-class: solution
-nav-class: hadron
 permalink:
 date: 2016-10-01 00:00:00 +0000
 
 ---
 
+<section class="">
 
-<div class="grid wrapper">
+<div class="wrapper">
+<div class="grid">
 <div class="profile grid__col grid__col--1-of-2 grid__col--m-1-of-1">
 
-<div class="card">
+<div class="product-description">
 {% markdown %}
 As you might be aware, over half of all SharePoint projects fail. So is shouting about an intranet that can be up and running in 8 weeks – and tick every box you need it to – a terrible idea?
 
-We don’t think so. Because Hadron is built on SharePoint, so it’s technically a minimal-configuration, low-cost, out-of-the-box intranet.
+**We don’t think so.** Because Hadron is built on SharePoint, so it’s technically a minimal-configuration, low-cost, out-of-the-box intranet.
 
 But it’s customised for your organisation. You let us know what you need; we turn the dials.
 
 So you ensure your colleagues can find the people and documents they need to do their jobs properly, with a design and navigation that’s clean and simple.
 
 And, because we support you with your strategy, implementation and adoption, your staff get an intranet that does everything they need it to. Even when you’re unsure of exactly what that might be.
+
+Hadron is now used by **25% of NHS Trusts** (and that’s increasing!).
+
 {% endmarkdown %}
 </div><!--end summary card-->
-
 </div>
 
-<div class="profile grid__col grid__col--1-of-2 grid__col--m-1-of-1">
+<div class="product-features grid__col grid__col--1-of-2 grid__col--m-1-of-1">
 
-</div>
-</div><!--end grid -->
+<img class="screenshot" src="/images/solutions/hadron-grab.png" title="{{ page.title }}">  
+
 
 {% markdown %}
 * Hadron is built on SharePoint - requiring minimal configuration
@@ -58,14 +63,12 @@ And, because we support you with your strategy, implementation and adoption, you
 {% endmarkdown %}
 
 
+</div>
+</div><!--end grid -->
+</div>
+</section>
 
-
-## Hadron is now used by 25% of NHS Trusts (and that’s increasing!).
-
-To find out more about Hadron, download our interactive PDF
-See Hadron in action
-
-Your organisation is unique. To see if Hadron meets your specific requirements (and to see it in action) request a free demonstration now. We’ll arrange a convenient time to show you how it works and what it looks like. (We actually quite enjoy talking about intranets and technology.)
+<!--
 
 ## Introducing Connect. A unique employee engagement hub.
 
@@ -92,3 +95,5 @@ The inefficiencies of paper-based processes might be well-known, but that doesn�
 Research suggests 83% of workers feel hampered by outdated ways of working. And cumbersome, paper-based processes increase the potential for human error.
 
 Interactive, electronic business processes are different. They guide staff through common procedures – such as procurement or diagnoses. They tackle all the problems associated with paper-based processes at once, and you can introduce them as part of Hadron or as a standalone feature.
+
+-->

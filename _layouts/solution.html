@@ -4,26 +4,59 @@ layout: default
 
 {% include hero.html %}
 
-<div class="wrapper page-general">
-
-<article class="post page-general">
 
 <header class="solution-header">
+
+<div class="wrapper">
+
+<div class="grid">
+<div class="profile grid__col grid__col--1-of-2 grid__col--m-1-of-1">
+	<img class="solution-laptop {{ page.title }}"  alt="{{ page.title }} solution from Cloud2" src="/images/solutions/{{ page.product-laptop }}">
+</div><!-- end col -->
+
+<div class="js-scroll-solution profile grid__col grid__col--1-of-2 grid__col--m-1-of-1">
+
 {% if page.product-logo %}
 <img class="solution-logo {{ page.title }}"  alt="{{ page.title }} solution from Cloud2" src="/images/solutions/{{ page.product-logo }}">
 {% endif %}
+<h3 class="product-subheading">{{ page.summary }}</h3>
+
+<a class="button button-orange request-demo" href="#cta" title="Request a demo">Request a demo</a>
+
+{% if page.pdf %}
+<a class="button reversed" href="/pdfs/{{ page.pdf }}" title="Download PDF">Download PDF</a>
+{% endif %}
+
+</div><!-- end col -->
+
+</div><!-- end grid -->
+</div><!-- end wrapper -->
+
 </header>
 
-<div class="post-content">
-{% if page.summary %}<p class="article-summary">{{ page.summary }}</p>{% endif %}
+<div class="wrapper page-general">
+
+<blockquote class="header-quote">
+{{ page.home-quote }}
+</blockquote>
 
 </div>
 
-</article>
 
-</div>
 
+<div class="wrapper">
 {{ content }}
+</div>
+
+{% if page.pdf %}
+
+<a title="Download the Cloud2 {{ page.title }} PDF" class="pdf-link" href="/pdfs/{{ page.pdf }}">
+<div class="wrapper">
+<span class="pdf-link-text">To find out more about {{ page.title }}, download our interactive PDF</span>
+</div>
+</a>
+{% endif %}
+
 
 <div class="wrapper page-general">
 {% include form-cta.html %}

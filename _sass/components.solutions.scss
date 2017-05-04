@@ -2,9 +2,121 @@
     #SOLUTIONS
 \*------------------------------------*/
 
+body.solution {
+	background: $color-grey-bg;
+}
+
 img.solution-logo {
 	max-width: 250px;
 	height: auto;
-	margin-top: 2rem;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+
+
+.features {
+	background: #fff;
+}
+
+.product-phone {
+	max-width: 400px;
+	margin-top: 4rem;
+	height: auto;
+}
+
+
+.page-content .header-quote {
+	color: #656565;
+	text-align: center;
+	max-width: 40rem;
+	margin: 2rem auto;
+}
+
+.header-quote:before {
+	content: "“";
+}
+
+.header-quote:after {
+	content: "”";
+}
+
+.solution-header {
+	background-color: #fff;
+	border-bottom: 1px solid #cecece;
+	position: relative;
+}
+
+.solution-laptop {
+	max-width: 100%;
+	position: relative;
+	top: 3rem;
+}
+.screenshot {
+	max-width: 100%;
+	border: 4px solid #fff;
+	box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+}
+
+.product-subheading {
+	color: $c2-midblue;
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+.product-features ul {
+	margin-top: 1rem;
+	color: $color-main-lighter;
+	font-size: 0.9rem;
+	li {
+	margin-bottom: 0.25rem;
+}
+}
+
+.pdf-link {
+	background-color: $c2-purple;
+	text-align: center;
+	color: #fff !important;
+	display: block;
 	margin-bottom: 2rem;
+	font-family: 'avant-demi';
+}
+
+.pdf-link-text {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: inline-block;
+	background-image: url(#{$themepath}/pdf.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+}
+
+.product-description {
+	border-top: 4px solid $c2-blue;
+	background: rgba(255,255,255,1);
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.20);
+	padding: 2rem 2rem 2rem 2rem;
+	color: lighten($color-main, 10%);
+	margin-bottom: 1.5rem;
+	position: relative;
+	.button {
+		margin-top: 1.5rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+		color: $c2-midblue;
+	}
+	q {
+		display: block;
+	}
+	p {
+		max-width: 100%;
+	}
+	p:first-child {
+		font-weight: bold;
+		color: $c2-blue;
+	}
+	.content-wrap {
+		margin-bottom: 1rem;
+	}
 }

@@ -24,13 +24,19 @@ $(document).ready(function() {
 			duration: 500
 		});
 
+		$(".js-scroll-solution").localScroll({
+			duration: 700,
+			offset: {
+				top: -18
+			}
+		});
+
 		$(".js-scroll-about").localScroll({
 			duration: 500,
 			offset: {
 				top: 20
 			}
 		});
-
 	});
 
 	//=========== [ Card toggles ]
