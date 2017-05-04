@@ -5,5 +5,4 @@ alt: vuzion
 date: 2017-01-03 00:00:00 +0000
 ---
 
-We provide our Azure services through Vuzion. Vuzion provision your Azure infrastructure, provide Azure support and billing.  We still own and manage our relationship with you though.
-
+Vuzion provide your Azure (that’s Microsoft’s cloud) infrastructure. They also provide Azure support and billing, although we naturally manage our own relationship with you. 
