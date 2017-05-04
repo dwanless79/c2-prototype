@@ -44,6 +44,10 @@ img.solution-logo {
 	background-color: #fff;
 	border-bottom: 1px solid #cecece;
 	position: relative;
+
+	.button {
+		margin-bottom: 2rem;
+	}
 }
 
 .solution-laptop {
@@ -60,6 +64,7 @@ img.solution-logo {
 .product-subheading {
 	color: $c2-midblue;
 	font-size: 1.5rem;
+	margin-bottom: 1rem;
 	line-height: 1.2;
 }
 
