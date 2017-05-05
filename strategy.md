@@ -5,6 +5,7 @@ nav-title: strategy
 description: Details about Cloud2
 keywords: cloud2, values, team
 hero-title: Strategy. Implementation. Adoption.
+hero-image: skateboard.jpg
 hero-text: Far too many companies are concerned solely with implementing digital workspaces. When, really, implementation is the bare minimum.
 intro: That’s what we think, anyway. After delivering digital solutions to more than 300,000 users over the years, we’ve developed a more-rounded methodology that we know works well. 
 exclude_from_nav: yes
