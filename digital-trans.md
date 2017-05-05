@@ -5,7 +5,8 @@ nav-title: digital-transformation
 description: Digital Transformation about Cloud2
 keywords: cloud2, digital transformation, team
 hero-title: Digital Transformation.
-hero-text: A communi observantia non est recedendum. Non equidem invideo, miror magis posuere velit aliquet. Quid securi etiam tamquam eu fugiat nulla pariatur. Morbi fringilla convallis sapien, id pulvinar odio volutpat.
+hero-text: Salutantibus vitae elit libero, a pharetra augue. Fabio vel iudice vincam, sunt in culpa qui officia. Hi omnes lingua, institutis.
+hero-image: field.jpg
 intro: Fictum, deserunt etto mollit anim laborum astutumque. Quae vero auctorem tractata ab fiducia dicuntur. Curabitur blandit tempus ardua ridiculus sed magna.
 exclude_from_nav: yes
 nav-class: dt
