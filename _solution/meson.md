@@ -3,10 +3,11 @@ layout: solution
 title: Analytics
 image_path: ""
 hero-title: Analytics
-hero-text: 
-product-logo: meson-logo.png
+hero-image: target.jpg
+hero-text: Make data visual, intuitive and self-serve
+product-logo: meson-logo.svg
 pdf: temp.pdf
-product-laptop: hadron-surface.png
+product-laptop: meson-surface.png
 home-intro: When different people need access to different reports and data, Power BI and Meson offer relevant, timely information. So your analytics team can focus on uncovering meaningful insights.
 home-quote: Meson takes away the need for very basic reports. The finance guys can now get their reports in five minutes rather than in two days, allowing my team to focus on more complex analytics, such as predictive analytics, rather than telling the organisation what it's just done.  And because everyone just ends up discussing live reports online, it’s even helping us towards our paperless targets.
 home-image:
@@ -17,8 +18,6 @@ permalink:
 date: 2016-10-01 00:00:00 +0000
 
 ---
-
-
 
 * Power BI makes all your data visual
 * And Meson hosts it all in the same place

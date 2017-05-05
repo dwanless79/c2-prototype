@@ -3,16 +3,18 @@ layout: solution
 title: Cloud
 image_path: ""
 hero-title: Cloud
-hero-text: 
-product-logo: cloud-logo.png
+hero-image: bigrocket.jpg
+hero-text: Migrate existing IT infrastructure to the Cloud and give staff the freedom to work from anywhere
+product-logo: cloud.svg
 pdf: temp.pdf
-product-laptop: hadron-surface.png
+product-laptop: office365-surface.png
 home-intro: When moving to the Cloud seems prosperous but daunting, we ensure you reap headache-free rewards.
 home-quote: Moving our SQL Servers into Azure is actually an exciting prospect now.  We’re expecting to save £11.3m over the next three years.  What's even more exciting is that the investment we'll be making into Office 365 will not only give our staff the freedom to work from wherever they are but the financial investment will be recovered in two months!
 home-image:
 summary: The Cloud has the potential to save single organisations millions in less than 3 years
+cta-heading: To find out how much you stand to gain, contact us
 cta-text: There’s no blanket answer on this. The return for your organisation, as you can expect, is going to be unique. That said, it is definable, can amount to millions and is often realised in a matter of years. To find out what you stand to gain, get in touch. Fill in your details below and we’ll be in touch to discuss the next steps.
-nav-class: cloud
+nav-class: solutions cloud
 permalink:
 date: 2016-10-02 00:00:00 +0000
 
@@ -51,7 +53,7 @@ Moving staff to Office 365 is simple enough.
 
 Maximising the return on an Office 365 investment is another thing entirely.
 
-_Cloud2 can help with the latter.__
+Cloud2 can help with the latter.
 
 Unlike some organisations, we’re not so keen on simply ticking boxes. Instead, we can help with your Office 365 strategy and its adoption, as well as physical implementation. 
 
@@ -60,5 +62,3 @@ We help you with every stage of the process, ensuring all holes are plugged.
 Armed with the right strategy, technical know-how and experience, there’s little to prevent your switch from going smoothly. 
 
 So your staff are delighted with the move, as opposed to disgruntled.
-
-## To find out how much you stand to gain, contact us.

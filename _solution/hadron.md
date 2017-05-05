@@ -2,7 +2,7 @@
 layout: solution
 title: Intranets
 image_path: ""
-hero-image:
+hero-image: sling.jpg
 hero-title: Intranets
 pdf: temp.pdf
 hero-text: When you’re grappling with a clunky, out of date intranet, Hadron weeds out inefficiencies and aids collaboration. 
@@ -13,7 +13,7 @@ home-intro: When you’re grappling with a clunky, out of date intranet, Hadron 
 cta-text: Your organisation is unique. To see if Hadron meets your specific requirements (and to see it in action) request a free demonstration now. We’ll arrange a convenient time to show you how it works and what it looks like. (We actually quite enjoy talking about intranets and technology.)
 home-image:
 summary: In 8 weeks’ time, you could have an intranet people actually enjoy using
-nav-class: solution
+nav-class: solution hadron
 permalink:
 date: 2016-10-01 00:00:00 +0000
 
