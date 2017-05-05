@@ -4,7 +4,6 @@
 
 .hero {
 	color: #fff;
-	background-color: $c2-blue;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	background-position: right center;
@@ -12,7 +11,6 @@
 	.subtitle {
 		font-size: 1.5rem;
 	}
-	background-color: rgba(0, 0, 0, 0.6);
 	background-size: cover;
 	p {
 		font-family: 'avant-demi';
@@ -26,7 +24,6 @@
 		color: #fff;
 	}
 }
-
 
 .case-hero {
 	padding-top: 2rem;
@@ -59,6 +56,101 @@
 	background-attachment: cover;
 	background-image: url(#{$themepath}/hero/home-rocket.jpg);
 }
+
+
+.meson.hero h1 {
+	color: #3a2f2f;
+}
+.meson.hero p {
+	color: #485a6f;
+	mix-blend-mode: multiply;
+}
+
+.about.hero h1 {
+	color: #fdfcde;
+	max-width: 80%; // trying to elimiate ugly break
+}
+.about.hero p a, .about.hero p a:visited {
+	color: #7ea6ca;
+}
+
+.stories.hero {
+
+}
+.stories.hero h1 {
+	color: #085b8f;
+	mix-blend-mode: multiply;
+}
+.stories.hero p {
+	color: #5e4337;
+	mix-blend-mode: multiply;	
+}
+
+.news.hero p, .news.hero h1 {
+	color: $c2-midblue;
+	mix-blend-mode: multiply;
+}
+
+
+.events.hero h1 {
+	color: #fcf6f7;
+	color: #16445a;
+	//mix-blend-mode: multiply;
+}
+
+.events.hero p {
+	color: #e90e0f;
+	mix-blend-mode: multiply;
+}
+
+
+.cloud.hero h1 {
+	//color: #ec2465; hot pink
+	color: #e9e9e4;
+	mix-blend-mode: overlay;
+}
+
+.cloud.hero p {
+	color: #e9e9e4;
+	mix-blend-mode: overlay;
+}
+
+.blog.hero h1 {
+	color: #931018;
+	mix-blend-mode: multiply;
+}
+
+.blog.hero p {
+	color: #3a101b;
+	mix-blend-mode: multiply;	
+}
+
+.contact.hero h1 {
+	color: #5d3f5a;	
+}
+.contact.hero p {
+	color: #2c6183;	
+}
+
+
+.dt.hero h1 {
+	color: #4c332d;
+	mix-blend-mode: multiply;
+}
+.dt.hero p {
+	color: #faf1e1;	
+}
+
+.hadron.hero h1 {
+	color: #ce4f3b;
+
+}
+.hadron.hero p {
+	mix-blend-mode: multiply;
+	color: #604a52;	
+}
+
+
 
 @media (max-width: $toast-breakpoint-medium) {
 	.hero {
