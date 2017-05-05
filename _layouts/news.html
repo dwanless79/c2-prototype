@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% include hero.html %}
+
+<section class="home-news">
+
+<div class="wrapper">
+<div id="first-article" class="card card-featured">
+{% for post in site.posts offset:1 limit:1 %}
+<h2 class="news-heading">Latest news: <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+<p class="news-meta">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+<p>{{ post.excerpt }}</p>
+{% endfor %}
+</div><!-- end card -->
+
+<div class="grid">
+{% for post in site.posts limit:20 offset:2 %}
+<div class="grid__col grid__col--1-of-3 grid__col--m-1-of-2 grid__col--s-1-of-1">
+<div class="post-list-item js-card-height">
+<h3 class="news-heading"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+<p class="news-meta">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
+<p>{{ post.excerpt }}</p>
+</div>
+</div><!--end grid col -->
+{% endfor %}
+</div>
+
+<div id="tweetWrap" class="tweetwrap js-tweets">
+</div>
+<script type="text/javascript" src="/js/mytweets.js"></script>
+
+</div><!-- end tweetwrap -->
+
+</div><!--end wrapper -->
+
+</section>
