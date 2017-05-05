@@ -1,7 +1,7 @@
 <section class="cta" id="cta">
 <div class="wrapper">
 
-<h2>Would you prefer to talk to a human?</h2>
+<h2>{% if page.cta-heading %}{{ page.cta-heading }}{% else %}Would you prefer to talk to a human?{% endif %}</h2>
 
 <p>{% if page.cta-text %}{{ page.cta-text }}{% else %}Enter your details to get in touch.{% endif %}</p>
 
