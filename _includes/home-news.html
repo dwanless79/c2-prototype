@@ -1,7 +1,7 @@
 <section class="home-news">
 
 <div class="wrapper">
-<div class="card">
+<div class="card card-featured">
 {% for post in site.posts limit:1 %}
 <h2 class="news-heading">Latest blog post: <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 <p class="news-meta">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p>
