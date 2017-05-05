@@ -45,6 +45,9 @@
 	transition: 0.2s ease background-color;
 }
 
+.card-featured {
+	border-left: 5px solid $c2-blue;
+}
 
 .card-home h2 a:hover:before {
 	background-color: $c2-orange;
