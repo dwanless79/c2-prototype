@@ -2,18 +2,27 @@
 layout: default
 ---
 
+{% include hero.html %}
+
 <div class="wrapper">
+
+<div class="grid">
+
+<div class="grid__col grid__col--1-of-2 grid__col--m-1-of-1 grid__col--s-1-of-1">
 <article class="post">
-
-<header class="post-header">
-<h1 class="post-title">{{ page.title }}</h1>
-</header>
-
-<div class="post-content">
 {{ content }}
-</div>
-
 </article>
+</div><!-- end grid col -->
+
+<div class="grid__col grid__col--1-of-2 grid__col--m-1-of-1 grid__col--s-1-of-1">
+<div class="map" id="google-map"></div>
+</div><!-- end grid col -->
+
+
 </div><!-- end wrapper -->
 
-<div class="map" id="google-map"></div>
+{% include form-cta.html %}
+
+
+
+
