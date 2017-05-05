@@ -5,6 +5,7 @@ nav-title: About
 description: Details about Cloud2
 keywords: cloud2, values, team
 hero-title: What is it that makes Cloud2 different?
+hero-image: sunset.jpg
 hero-text: Yes, we offer digital solutions and yes, we’re a Microsoft partner. But where Cloud2 really add value is through our unique <a href="/strategy/" title="strategy, implementation, adoption">strategy, implementation, adoption</a> approach.
 intro: We'll do that by streamlining our customers' information, data and processes into one end-to-end digital workspace which accelerates our customers decision making, helping them achieve their efficiency targets and boosting their productivity. We couple our deep understanding of our customers' markets and a passion for their success, we get them going in weeks not years.
 exclude_from_nav:
